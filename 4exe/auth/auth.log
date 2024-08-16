@@ -1,0 +1,51 @@
+{"time":"2024-08-12T12:30:47.77922726+05:00","level":"ERROR","msg":"Error: %v","!BADKEY":"listen tcp: address 50051: missing port in address"}
+{"time":"2024-08-12T12:32:00.563644526+05:00","level":"ERROR","msg":"Error: %v","!BADKEY":"listen tcp: address 50051: missing port in address"}
+{"time":"2024-08-12T12:32:07.349911033+05:00","level":"ERROR","msg":"Error: %v","!BADKEY":"listen tcp: address 50051: missing port in address"}
+{"time":"2024-08-12T12:32:29.302783432+05:00","level":"ERROR","msg":"Error: %v","!BADKEY":"listen tcp: address 50051: missing port in address"}
+{"time":"2024-08-14T12:47:55.285743815+05:00","level":"ERROR","msg":"Error: %v","!BADKEY":"listen tcp :8080: bind: address already in use"}
+{"time":"2024-08-14T13:32:11.691224721+05:00","level":"ERROR","msg":"pq: column \"first_name\" of relation \"users\" does not exist"}
+{"time":"2024-08-14T13:32:11.691371011+05:00","level":"ERROR","msg":"pq: column \"first_name\" of relation \"users\" does not exist"}
+{"time":"2024-08-14T13:56:10.994428801+05:00","level":"ERROR","msg":"pq: column \"first_name\" of relation \"users\" does not exist"}
+{"time":"2024-08-14T13:56:10.994642717+05:00","level":"ERROR","msg":"pq: column \"first_name\" of relation \"users\" does not exist"}
+{"time":"2024-08-14T13:57:18.027788015+05:00","level":"ERROR","msg":"pq: column \"first_name\" of relation \"users\" does not exist"}
+{"time":"2024-08-14T13:57:18.027818337+05:00","level":"ERROR","msg":"pq: column \"first_name\" of relation \"users\" does not exist"}
+{"time":"2024-08-14T13:59:31.030908591+05:00","level":"ERROR","msg":"pq: column \"password\" of relation \"users\" does not exist"}
+{"time":"2024-08-14T13:59:31.031767646+05:00","level":"ERROR","msg":"pq: column \"password\" of relation \"users\" does not exist"}
+{"time":"2024-08-14T14:01:49.327199517+05:00","level":"ERROR","msg":"pq: null value in column \"id\" of relation \"users\" violates not-null constraint"}
+{"time":"2024-08-14T14:01:49.327772054+05:00","level":"ERROR","msg":"pq: null value in column \"id\" of relation \"users\" violates not-null constraint"}
+{"time":"2024-08-14T14:03:32.584025021+05:00","level":"ERROR","msg":"pq: null value in column \"id\" of relation \"users\" violates not-null constraint"}
+{"time":"2024-08-14T14:03:32.58463824+05:00","level":"ERROR","msg":"pq: null value in column \"id\" of relation \"users\" violates not-null constraint"}
+{"time":"2024-08-14T14:09:14.00917977+05:00","level":"ERROR","msg":"pq: operator does not exist: & integer"}
+{"time":"2024-08-14T14:09:14.030711622+05:00","level":"ERROR","msg":"pq: operator does not exist: & integer"}
+{"time":"2024-08-14T14:10:02.93102482+05:00","level":"ERROR","msg":"pq: operator does not exist: & integer"}
+{"time":"2024-08-14T14:10:02.93165201+05:00","level":"ERROR","msg":"pq: operator does not exist: & integer"}
+{"time":"2024-08-14T14:10:13.15310675+05:00","level":"ERROR","msg":"pq: operator does not exist: & integer"}
+{"time":"2024-08-14T14:10:13.153147178+05:00","level":"ERROR","msg":"pq: operator does not exist: & integer"}
+{"time":"2024-08-14T14:10:41.599217699+05:00","level":"ERROR","msg":"pq: invalid input syntax for type uuid: \"1234543212345\""}
+{"time":"2024-08-14T14:10:41.599362465+05:00","level":"ERROR","msg":"pq: invalid input syntax for type uuid: \"1234543212345\""}
+{"time":"2024-08-14T14:13:59.260010542+05:00","level":"ERROR","msg":"pq: invalid input syntax for type uuid: \"1234543212345\""}
+{"time":"2024-08-14T14:13:59.260694426+05:00","level":"ERROR","msg":"pq: invalid input syntax for type uuid: \"1234543212345\""}
+{"time":"2024-08-14T15:05:13.111781524+05:00","level":"ERROR","msg":"pq: column \"deleted_at\" does not exist"}
+{"time":"2024-08-14T15:05:13.112136301+05:00","level":"ERROR","msg":"pq: column \"deleted_at\" does not exist"}
+{"time":"2024-08-14T15:07:19.886489474+05:00","level":"ERROR","msg":"sql: no rows in result set"}
+{"time":"2024-08-14T15:07:19.886534051+05:00","level":"ERROR","msg":"sql: no rows in result set"}
+{"time":"2024-08-14T15:12:33.731082429+05:00","level":"ERROR","msg":"pq: duplicate key value violates unique constraint \"users_email_key\""}
+{"time":"2024-08-14T15:12:33.73117708+05:00","level":"ERROR","msg":"pq: duplicate key value violates unique constraint \"users_email_key\""}
+{"time":"2024-08-14T17:35:56.218623006+05:00","level":"ERROR","msg":"pq: duplicate key value violates unique constraint \"users_email_key\""}
+{"time":"2024-08-14T17:35:56.219141262+05:00","level":"ERROR","msg":"pq: duplicate key value violates unique constraint \"users_email_key\""}
+{"time":"2024-08-15T08:41:04.747262452+05:00","level":"ERROR","msg":"pq: duplicate key value violates unique constraint \"users_email_key\""}
+{"time":"2024-08-15T08:41:04.747502248+05:00","level":"ERROR","msg":"pq: duplicate key value violates unique constraint \"users_email_key\""}
+{"time":"2024-08-15T10:36:43.401116293+05:00","level":"ERROR","msg":"pq: duplicate key value violates unique constraint \"users_email_key\""}
+{"time":"2024-08-15T10:36:43.401786865+05:00","level":"ERROR","msg":"pq: duplicate key value violates unique constraint \"users_email_key\""}
+{"time":"2024-08-15T11:45:14.365708837+05:00","level":"ERROR","msg":"sql: no rows in result set"}
+{"time":"2024-08-15T11:45:43.043869755+05:00","level":"ERROR","msg":"sql: no rows in result set"}
+{"time":"2024-08-15T11:46:31.248795087+05:00","level":"ERROR","msg":"sql: no rows in result set"}
+{"time":"2024-08-15T11:49:13.467224025+05:00","level":"ERROR","msg":"sql: no rows in result set"}
+{"time":"2024-08-15T12:01:17.624269083+05:00","level":"ERROR","msg":"pq: value too long for type character varying(15)"}
+{"time":"2024-08-15T12:02:30.874951503+05:00","level":"ERROR","msg":"pq: value too long for type character varying(15)"}
+{"time":"2024-08-15T12:08:10.050341529+05:00","level":"ERROR","msg":"sql: no rows in result set"}
+{"time":"2024-08-15T12:08:36.691695797+05:00","level":"ERROR","msg":"sql: no rows in result set"}
+{"time":"2024-08-15T12:09:06.034378321+05:00","level":"ERROR","msg":"sql: no rows in result set"}
+{"time":"2024-08-15T12:09:32.990379526+05:00","level":"ERROR","msg":"sql: no rows in result set"}
+{"time":"2024-08-15T12:11:03.401625776+05:00","level":"ERROR","msg":"sql: no rows in result set"}
+{"time":"2024-08-15T12:13:17.854156807+05:00","level":"ERROR","msg":"sql: no rows in result set"}

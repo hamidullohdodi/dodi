@@ -1,0 +1,78 @@
+{"time":"2024-07-31T15:47:15.194848671+05:00","level":"ERROR","msg":"get control failed","!BADKEY":"rpc error: code = Unavailable desc = connection error: desc = \"error reading server preface: http2: frame too large\""}
+{"time":"2024-07-31T15:47:45.695586096+05:00","level":"ERROR","msg":"get control failed","!BADKEY":"rpc error: code = Unavailable desc = connection error: desc = \"error reading server preface: http2: frame too large\""}
+{"time":"2024-07-31T15:50:53.618126827+05:00","level":"ERROR","msg":"get control failed","!BADKEY":"rpc error: code = Unavailable desc = connection error: desc = \"error reading server preface: http2: frame too large\""}
+{"time":"2024-07-31T15:50:54.760340686+05:00","level":"ERROR","msg":"get control failed","!BADKEY":"rpc error: code = Unavailable desc = connection error: desc = \"error reading server preface: http2: frame too large\""}
+{"time":"2024-07-31T15:50:55.288887986+05:00","level":"ERROR","msg":"get control failed","!BADKEY":"rpc error: code = Unavailable desc = connection error: desc = \"error reading server preface: http2: frame too large\""}
+{"time":"2024-07-31T15:50:55.799254531+05:00","level":"ERROR","msg":"get control failed","!BADKEY":"rpc error: code = Unavailable desc = connection error: desc = \"error reading server preface: http2: frame too large\""}
+{"time":"2024-07-31T15:52:18.131771798+05:00","level":"ERROR","msg":"get control failed","!BADKEY":"rpc error: code = Unavailable desc = connection error: desc = \"error reading server preface: http2: frame too large\""}
+{"time":"2024-07-31T15:56:10.055910257+05:00","level":"ERROR","msg":"get control failed","!BADKEY":"rpc error: code = Unavailable desc = connection error: desc = \"error reading server preface: http2: frame too large\""}
+{"time":"2024-07-31T15:57:15.843287653+05:00","level":"ERROR","msg":"get control failed","!BADKEY":"rpc error: code = Unavailable desc = connection error: desc = \"error reading server preface: http2: frame too large\""}
+{"time":"2024-07-31T15:57:17.541016164+05:00","level":"ERROR","msg":"get control failed","!BADKEY":"rpc error: code = Unavailable desc = connection error: desc = \"error reading server preface: http2: frame too large\""}
+{"time":"2024-07-31T15:57:17.837271078+05:00","level":"ERROR","msg":"get control failed","!BADKEY":"rpc error: code = Unavailable desc = connection error: desc = \"error reading server preface: http2: frame too large\""}
+{"time":"2024-07-31T15:57:18.43568593+05:00","level":"ERROR","msg":"get control failed","!BADKEY":"rpc error: code = Unavailable desc = connection error: desc = \"error reading server preface: http2: frame too large\""}
+{"time":"2024-07-31T15:57:18.793879727+05:00","level":"ERROR","msg":"get control failed","!BADKEY":"rpc error: code = Unavailable desc = connection error: desc = \"error reading server preface: http2: frame too large\""}
+{"time":"2024-07-31T15:57:58.232449155+05:00","level":"ERROR","msg":"get control failed","!BADKEY":"rpc error: code = Unavailable desc = connection error: desc = \"error reading server preface: http2: frame too large\""}
+{"time":"2024-07-31T15:58:01.442224338+05:00","level":"ERROR","msg":"get control failed","!BADKEY":"rpc error: code = Unavailable desc = connection error: desc = \"error reading server preface: http2: frame too large\""}
+{"time":"2024-07-31T15:58:02.029609115+05:00","level":"ERROR","msg":"get control failed","!BADKEY":"rpc error: code = Unavailable desc = connection error: desc = \"error reading server preface: http2: frame too large\""}
+{"time":"2024-07-31T15:58:02.841877725+05:00","level":"ERROR","msg":"get control failed","!BADKEY":"rpc error: code = Unavailable desc = connection error: desc = \"error reading server preface: http2: frame too large\""}
+{"time":"2024-07-31T15:58:03.891527211+05:00","level":"ERROR","msg":"get control failed","!BADKEY":"rpc error: code = Unavailable desc = connection error: desc = \"error reading server preface: http2: frame too large\""}
+{"time":"2024-07-31T15:59:10.201029477+05:00","level":"ERROR","msg":"get control failed","!BADKEY":"rpc error: code = Unavailable desc = connection error: desc = \"error reading server preface: http2: frame too large\""}
+{"time":"2024-07-31T16:00:02.816126407+05:00","level":"ERROR","msg":"get control failed","!BADKEY":"rpc error: code = Unavailable desc = connection error: desc = \"error reading server preface: http2: frame too large\""}
+{"time":"2024-07-31T16:02:35.040969494+05:00","level":"ERROR","msg":"failed to get control","error":"rpc error: code = Unavailable desc = connection error: desc = \"error reading server preface: http2: frame too large\""}
+{"time":"2024-07-31T16:02:50.685128707+05:00","level":"ERROR","msg":"failed to get control","error":"rpc error: code = Unavailable desc = connection error: desc = \"error reading server preface: http2: frame too large\""}
+{"time":"2024-07-31T16:10:48.395648206+05:00","level":"ERROR","msg":"failed to get control","error":"rpc error: code = Unavailable desc = connection error: desc = \"error reading server preface: http2: frame too large\""}
+{"time":"2024-07-31T16:11:04.897817923+05:00","level":"ERROR","msg":"failed to get control","error":"rpc error: code = Unavailable desc = connection error: desc = \"error reading server preface: http2: frame too large\""}
+{"time":"2024-07-31T16:11:32.767218386+05:00","level":"ERROR","msg":"failed to get control","error":"rpc error: code = Unavailable desc = connection error: desc = \"error reading server preface: http2: frame too large\""}
+{"time":"2024-07-31T16:25:54.180780671+05:00","level":"ERROR","msg":"failed to get control","error":"rpc error: code = Unavailable desc = connection error: desc = \"error reading server preface: http2: frame too large\""}
+{"time":"2024-07-31T16:28:42.874318428+05:00","level":"ERROR","msg":"failed to get control","error":"rpc error: code = Unavailable desc = connection error: desc = \"error reading server preface: http2: frame too large\""}
+{"time":"2024-07-31T16:28:52.480494431+05:00","level":"ERROR","msg":"failed to get control","error":"rpc error: code = Unavailable desc = connection error: desc = \"error reading server preface: http2: frame too large\""}
+{"time":"2024-07-31T16:29:13.448178339+05:00","level":"ERROR","msg":"failed to get control","error":"rpc error: code = Unavailable desc = connection error: desc = \"error reading server preface: http2: frame too large\""}
+{"time":"2024-07-31T16:45:03.708726991+05:00","level":"ERROR","msg":"failed to get control","error":"rpc error: code = Unavailable desc = connection error: desc = \"transport: Error while dialing: dial tcp 127.0.0.1:8081: connect: connection refused\""}
+{"time":"2024-07-31T16:58:26.610667365+05:00","level":"ERROR","msg":"failed to get control","error":"rpc error: code = Unavailable desc = connection error: desc = \"error reading server preface: http2: frame too large\""}
+{"time":"2024-07-31T20:26:13.445196051+05:00","level":"ERROR","msg":"failed to get control","error":"rpc error: code = Unavailable desc = connection error: desc = \"error reading server preface: http2: frame too large\""}
+{"time":"2024-07-31T20:37:03.818042215+05:00","level":"INFO","msg":"Hello World"}
+{"time":"2024-07-31T20:37:22.312379097+05:00","level":"INFO","msg":"Hello World"}
+{"time":"2024-07-31T20:37:34.697918976+05:00","level":"ERROR","msg":"failed to get control","error":"rpc error: code = Unavailable desc = connection error: desc = \"error reading server preface: http2: frame too large\""}
+{"time":"2024-07-31T20:38:27.903095665+05:00","level":"ERROR","msg":"failed to get control","error":"rpc error: code = Unavailable desc = connection error: desc = \"error reading server preface: http2: frame too large\""}
+{"time":"2024-07-31T20:43:54.570279549+05:00","level":"INFO","msg":"Hello World"}
+{"time":"2024-07-31T20:44:00.89254903+05:00","level":"ERROR","msg":"failed to get control","error":"rpc error: code = Unavailable desc = connection error: desc = \"error reading server preface: http2: frame too large\""}
+{"time":"2024-07-31T20:56:05.528639977+05:00","level":"ERROR","msg":"failed to get control","error":"rpc error: code = Unavailable desc = connection error: desc = \"error reading server preface: http2: frame too large\""}
+{"time":"2024-07-31T20:58:13.09243437+05:00","level":"INFO","msg":"Hello World"}
+{"time":"2024-07-31T20:58:21.314713417+05:00","level":"INFO","msg":"Hello World"}
+{"time":"2024-07-31T20:58:26.186764319+05:00","level":"ERROR","msg":"failed to get control","error":"rpc error: code = Unavailable desc = connection error: desc = \"transport: Error while dialing: dial tcp 127.0.0.1:8081: connect: connection refused\""}
+{"time":"2024-07-31T21:00:27.44090569+05:00","level":"ERROR","msg":"failed to get control","error":"rpc error: code = Unavailable desc = connection error: desc = \"transport: Error while dialing: dial tcp 127.0.0.1:8081: connect: connection refused\""}
+{"time":"2024-07-31T21:01:25.9102083+05:00","level":"INFO","msg":"Hello World"}
+{"time":"2024-07-31T21:01:59.072514955+05:00","level":"ERROR","msg":"failed to get control","error":"rpc error: code = Unavailable desc = connection error: desc = \"transport: Error while dialing: dial tcp 127.0.0.1:8081: connect: connection refused\""}
+{"time":"2024-07-31T21:03:21.946139908+05:00","level":"INFO","msg":"Hello World"}
+{"time":"2024-07-31T23:00:14.731400258+05:00","level":"INFO","msg":"Hello World"}
+{"time":"2024-07-31T23:10:41.493279424+05:00","level":"ERROR","msg":"failed to get control","error":"rpc error: code = Unknown desc = mongo: no documents in result"}
+{"time":"2024-07-31T23:10:44.77499011+05:00","level":"ERROR","msg":"failed to get control","error":"rpc error: code = Unknown desc = mongo: no documents in result"}
+{"time":"2024-07-31T23:43:44.923787475+05:00","level":"ERROR","msg":"delete control failed","!BADKEY":"rpc error: code = Unknown desc = ERR wrong number of arguments for 'hdel' command"}
+{"time":"2024-07-31T23:44:38.040543419+05:00","level":"ERROR","msg":"delete control failed","!BADKEY":"rpc error: code = Unknown desc = ERR wrong number of arguments for 'hdel' command"}
+{"time":"2024-07-31T23:44:56.602399837+05:00","level":"ERROR","msg":"delete control failed","!BADKEY":"rpc error: code = Unknown desc = ERR wrong number of arguments for 'hdel' command"}
+{"time":"2024-08-01T00:11:45.574650432+05:00","level":"INFO","msg":"Hello World"}
+{"time":"2024-08-01T00:12:14.374173127+05:00","level":"ERROR","msg":"failed to bind request","error":"json: cannot unmarshal object into Go struct field UserRegister.profile of type []*user.Profile"}
+{"time":"2024-08-01T00:13:46.078624243+05:00","level":"ERROR","msg":"failed to bind request","error":"json: cannot unmarshal object into Go struct field UserRegister.profile of type []*user.Profile"}
+{"time":"2024-08-01T01:00:41.412554344+05:00","level":"INFO","msg":"Hello World"}
+{"time":"2024-08-01T01:12:20.107553914+05:00","level":"INFO","msg":"Hello World"}
+{"time":"2024-08-01T01:35:54.637760635+05:00","level":"INFO","msg":"Hello World"}
+{"time":"2024-08-01T01:37:23.862789227+05:00","level":"INFO","msg":"Hello World"}
+{"time":"2024-08-01T01:37:31.373943747+05:00","level":"INFO","msg":"Hello World"}
+{"time":"2024-08-01T01:44:02.389476223+05:00","level":"INFO","msg":"Hello World"}
+{"time":"2024-08-01T01:44:48.354728994+05:00","level":"INFO","msg":"Hello World"}
+{"time":"2024-08-01T01:47:27.316772956+05:00","level":"INFO","msg":"Hello World"}
+{"time":"2024-08-01T01:47:34.983911342+05:00","level":"INFO","msg":"Hello World"}
+{"time":"2024-08-01T01:49:15.500624359+05:00","level":"INFO","msg":"Hello World"}
+{"time":"2024-08-01T01:57:33.607266676+05:00","level":"ERROR","msg":"delete control failed","!BADKEY":"rpc error: code = Unknown desc = ERR wrong number of arguments for 'hdel' command"}
+{"time":"2024-08-01T02:05:25.816921704+05:00","level":"ERROR","msg":"delete control failed","!BADKEY":"rpc error: code = Unknown desc = ERR wrong number of arguments for 'hdel' command"}
+{"time":"2024-08-01T02:12:30.044983607+05:00","level":"ERROR","msg":"failed to get control","error":"rpc error: code = Unknown desc = control not found: mongo: no documents in result"}
+{"time":"2024-08-01T02:23:29.697450878+05:00","level":"ERROR","msg":"failed to get control","error":"rpc error: code = Unknown desc = control not found: mongo: no documents in result"}
+{"time":"2024-08-01T02:23:58.076116222+05:00","level":"ERROR","msg":"failed to get control","error":"rpc error: code = Unknown desc = control not found: mongo: no documents in result"}
+{"time":"2024-08-01T02:39:02.934888077+05:00","level":"ERROR","msg":"get device failed","!BADKEY":"rpc error: code = Unknown desc = error retrieving device: mongo: no documents in result"}
+{"time":"2024-08-01T02:41:30.621805702+05:00","level":"ERROR","msg":"get device failed","!BADKEY":"rpc error: code = Unknown desc = error retrieving device: mongo: no documents in result"}
+{"time":"2024-08-01T10:36:50.972932426+05:00","level":"INFO","msg":"Hello World"}
+{"time":"2024-08-01T10:37:51.041258745+05:00","level":"ERROR","msg":"failed to register user","error":"rpc error: code = Unavailable desc = connection error: desc = \"transport: Error while dialing: dial tcp 127.0.0.1:50051: connect: connection refused\""}
+{"time":"2024-08-01T13:32:12.534175887+05:00","level":"ERROR","msg":"create device failed","!BADKEY":"rpc error: code = Unavailable desc = connection error: desc = \"transport: Error while dialing: dial tcp 127.0.0.1:50052: connect: connection refused\""}
+{"time":"2024-08-14T01:32:30.356301875+05:00","level":"INFO","msg":"CreateService request"}
+{"time":"2024-08-14T02:49:33.397678661+05:00","level":"INFO","msg":"ListServices request"}
+{"time":"2024-08-14T02:49:44.893667949+05:00","level":"INFO","msg":"SearchServices request"}

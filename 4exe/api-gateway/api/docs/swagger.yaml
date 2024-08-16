@@ -1,0 +1,1552 @@
+definitions:
+  booking.Availability:
+    properties:
+      end_time:
+        type: string
+      start_time:
+        type: string
+    type: object
+  booking.CancelBookingResponse:
+    properties:
+      message:
+        type: string
+    type: object
+  booking.CreateBookingRequest:
+    properties:
+      id:
+        type: string
+      location:
+        $ref: '#/definitions/booking.Location'
+      provider_id:
+        type: string
+      scheduled_time:
+        $ref: '#/definitions/booking.ScheduledTime'
+      service_id:
+        type: string
+      status:
+        type: string
+      total_price:
+        type: number
+      user_id:
+        type: string
+    type: object
+  booking.CreateBookingResponse:
+    properties:
+      id:
+        type: string
+      location:
+        $ref: '#/definitions/booking.Location'
+      provider_id:
+        type: string
+      service_id:
+        type: string
+      status:
+        type: string
+      total_price:
+        type: number
+      user_id:
+        type: string
+    type: object
+  booking.CreatePaymentRequest:
+    properties:
+      amount:
+        type: number
+      booking_id:
+        type: string
+      payment_method:
+        type: string
+      status:
+        type: string
+      transaction_id:
+        type: string
+    type: object
+  booking.CreatePaymentResponse:
+    properties:
+      amount:
+        type: number
+      booking_id:
+        type: string
+      id:
+        type: string
+      payment_method:
+        type: string
+      status:
+        type: string
+      transaction_id:
+        type: string
+    type: object
+  booking.CreateProviderRequest:
+    properties:
+      availability:
+        items:
+          $ref: '#/definitions/booking.Availability'
+        type: array
+      company_name:
+        type: string
+      location:
+        $ref: '#/definitions/booking.Location'
+      service_id:
+        items:
+          $ref: '#/definitions/booking.ServiceId'
+        type: array
+      user_id:
+        type: string
+    type: object
+  booking.CreateProviderResponse:
+    properties:
+      availability:
+        items:
+          $ref: '#/definitions/booking.Availability'
+        type: array
+      company_name:
+        type: string
+      created_at:
+        type: string
+      id:
+        type: string
+      location:
+        $ref: '#/definitions/booking.Location'
+      service_id:
+        items:
+          $ref: '#/definitions/booking.ServiceId'
+        type: array
+      user_id:
+        type: string
+    type: object
+  booking.CreateReviewRequest:
+    properties:
+      booking_id:
+        type: string
+      comment:
+        type: string
+      provider_id:
+        type: string
+      rating:
+        type: number
+      user_id:
+        type: string
+    type: object
+  booking.CreateReviewResponse:
+    properties:
+      booking_id:
+        type: string
+      comment:
+        type: string
+      created_at:
+        type: string
+      provider_id:
+        type: string
+      rating:
+        type: number
+      user_id:
+        type: string
+    type: object
+  booking.CreateServiceRequest:
+    properties:
+      description:
+        type: string
+      duration:
+        type: integer
+      price:
+        type: number
+      user_id:
+        type: string
+    type: object
+  booking.CreateServiceResponse:
+    properties:
+      description:
+        type: string
+      duration:
+        type: integer
+      id:
+        type: string
+      price:
+        type: number
+      user_id:
+        type: string
+    type: object
+  booking.DeletePaymentResponse:
+    properties:
+      message:
+        type: string
+    type: object
+  booking.DeleteProviderResponse:
+    properties:
+      message:
+        type: string
+    type: object
+  booking.DeleteReviewRequest:
+    properties:
+      id:
+        type: string
+    type: object
+  booking.DeleteReviewResponse:
+    properties:
+      message:
+        type: string
+    type: object
+  booking.DeleteServiceRequest:
+    properties:
+      id:
+        type: string
+    type: object
+  booking.DeleteServiceResponse:
+    properties:
+      message:
+        type: string
+    type: object
+  booking.GetBookingResponse:
+    properties:
+      id:
+        type: string
+      location:
+        $ref: '#/definitions/booking.Location'
+      provider_id:
+        type: string
+      scheduled_time:
+        $ref: '#/definitions/booking.ScheduledTime'
+      service_id:
+        type: string
+      status:
+        type: string
+      total_price:
+        type: number
+      user_id:
+        type: string
+    type: object
+  booking.GetPaymentResponse:
+    properties:
+      amount:
+        type: number
+      booking_id:
+        type: string
+      id:
+        type: string
+      payment_method:
+        type: string
+      status:
+        type: string
+      transaction_id:
+        type: string
+    type: object
+  booking.GetProviderResponse:
+    properties:
+      availability:
+        items:
+          $ref: '#/definitions/booking.Availability'
+        type: array
+      company_name:
+        type: string
+      created_at:
+        type: string
+      id:
+        type: string
+      location:
+        $ref: '#/definitions/booking.Location'
+      service_id:
+        items:
+          $ref: '#/definitions/booking.ServiceId'
+        type: array
+      updated_at:
+        type: string
+      user_id:
+        type: string
+    type: object
+  booking.ListBookingsResponse:
+    properties:
+      bookings:
+        items:
+          $ref: '#/definitions/booking.GetBookingResponse'
+        type: array
+    type: object
+  booking.ListPaymentsResponse:
+    properties:
+      payments:
+        items:
+          $ref: '#/definitions/booking.Payment'
+        type: array
+    type: object
+  booking.ListProvidersResponse:
+    properties:
+      providers:
+        items:
+          $ref: '#/definitions/booking.Provider'
+        type: array
+    type: object
+  booking.ListReviewsResponse:
+    properties:
+      reviews:
+        items:
+          $ref: '#/definitions/booking.Review'
+        type: array
+    type: object
+  booking.ListServicesResponse:
+    properties:
+      services:
+        items:
+          $ref: '#/definitions/booking.Service'
+        type: array
+    type: object
+  booking.Location:
+    properties:
+      city:
+        type: string
+      country:
+        type: string
+    type: object
+  booking.Payment:
+    properties:
+      amount:
+        type: number
+      booking_id:
+        type: string
+      id:
+        type: string
+      payment_method:
+        type: string
+      status:
+        type: string
+      transaction_id:
+        type: string
+    type: object
+  booking.Provider:
+    properties:
+      availability:
+        items:
+          $ref: '#/definitions/booking.Availability'
+        type: array
+      company_name:
+        type: string
+      id:
+        type: string
+      location:
+        $ref: '#/definitions/booking.Location'
+      service_id:
+        items:
+          $ref: '#/definitions/booking.ServiceId'
+        type: array
+      user_id:
+        type: string
+    type: object
+  booking.Review:
+    properties:
+      booking_id:
+        type: string
+      comment:
+        type: string
+      created_at:
+        type: string
+      id:
+        type: string
+      provider_id:
+        type: string
+      rating:
+        type: number
+      user_id:
+        type: string
+    type: object
+  booking.ScheduledTime:
+    properties:
+      end_time:
+        type: string
+      start_time:
+        type: string
+    type: object
+  booking.SearchProvidersResponse:
+    properties:
+      providers:
+        items:
+          $ref: '#/definitions/booking.Provider'
+        type: array
+    type: object
+  booking.SearchServicesResponse:
+    properties:
+      services:
+        items:
+          $ref: '#/definitions/booking.Service'
+        type: array
+    type: object
+  booking.Service:
+    properties:
+      description:
+        type: string
+      duration:
+        type: integer
+      id:
+        type: string
+      price:
+        type: number
+      user_id:
+        type: string
+    type: object
+  booking.ServiceId:
+    properties:
+      id:
+        type: string
+    type: object
+  booking.UpdateBookingRequest:
+    properties:
+      id:
+        type: string
+      provider_id:
+        type: string
+      service_id:
+        type: string
+      status:
+        type: string
+      total_price:
+        type: number
+      user_id:
+        type: string
+    type: object
+  booking.UpdateBookingResponse:
+    properties:
+      provider_id:
+        type: string
+      service_id:
+        type: string
+      status:
+        type: string
+      total_price:
+        type: number
+      updated_at:
+        type: string
+      user_id:
+        type: string
+    type: object
+  booking.UpdatePaymentRequest:
+    properties:
+      amount:
+        type: number
+      booking_id:
+        type: string
+      id:
+        type: string
+      payment_method:
+        type: string
+      status:
+        type: string
+      transaction_id:
+        type: string
+    type: object
+  booking.UpdatePaymentResponse:
+    properties:
+      amount:
+        type: number
+      booking_id:
+        type: string
+      id:
+        type: string
+      payment_method:
+        type: string
+      status:
+        type: string
+      transaction_id:
+        type: string
+    type: object
+  booking.UpdateProviderRequest:
+    properties:
+      availability:
+        items:
+          $ref: '#/definitions/booking.Availability'
+        type: array
+      company_name:
+        type: string
+      id:
+        type: string
+      location:
+        $ref: '#/definitions/booking.Location'
+      user_id:
+        type: string
+    type: object
+  booking.UpdateProviderResponse:
+    properties:
+      availability:
+        items:
+          $ref: '#/definitions/booking.Availability'
+        type: array
+      company_name:
+        type: string
+      created_at:
+        type: string
+      id:
+        type: string
+      location:
+        $ref: '#/definitions/booking.Location'
+      service_id:
+        items:
+          $ref: '#/definitions/booking.ServiceId'
+        type: array
+      updated_at:
+        type: string
+      user_id:
+        type: string
+    type: object
+  booking.UpdateReviewRequest:
+    properties:
+      comment:
+        type: string
+      id:
+        type: string
+      provider_id:
+        type: string
+      rating:
+        type: number
+      user_id:
+        type: string
+    type: object
+  booking.UpdateReviewResponse:
+    properties:
+      booking_id:
+        type: string
+      comment:
+        type: string
+      provider_id:
+        type: string
+      rating:
+        type: number
+      updated_at:
+        type: string
+      user_id:
+        type: string
+    type: object
+  booking.UpdateServiceRequest:
+    properties:
+      description:
+        type: string
+      duration:
+        type: integer
+      id:
+        type: string
+      price:
+        type: number
+      user_id:
+        type: string
+    type: object
+  booking.UpdateServiceResponse:
+    properties:
+      description:
+        type: string
+      duration:
+        type: integer
+      id:
+        type: string
+      price:
+        type: number
+      updated_at:
+        type: string
+      user_id:
+        type: string
+    type: object
+  user.DeleteProfileRequest:
+    properties:
+      id:
+        type: string
+    type: object
+  user.DeleteProfileResponse:
+    properties:
+      message:
+        type: string
+    type: object
+  user.GetProfileResponse:
+    properties:
+      created_at:
+        type: string
+      email:
+        type: string
+      first_name:
+        type: string
+      id:
+        type: string
+      last_name:
+        type: string
+      password:
+        type: string
+      phone_number:
+        type: string
+      role:
+        type: string
+      updated_at:
+        type: string
+    type: object
+  user.GetProfilesResponse:
+    properties:
+      allProfile:
+        items:
+          $ref: '#/definitions/user.GetProfileResponse'
+        type: array
+    type: object
+  user.UpdateProfileRequest:
+    properties:
+      id:
+        type: string
+      new_first_name:
+        type: string
+      new_phone_number:
+        type: string
+      new_role:
+        type: string
+    type: object
+  user.UpdateProfileResponse:
+    properties:
+      first_name:
+        type: string
+      phone_number:
+        type: string
+      role:
+        type: string
+      updated_at:
+        type: string
+    type: object
+host: localhost:9090
+info:
+  contact: {}
+  title: swagger UI
+  version: "1.0"
+paths:
+  /auth/{id}:
+    get:
+      consumes:
+      - application/json
+      description: GetProfile
+      operationId: get-profile
+      parameters:
+      - description: User ID
+        in: query
+        name: id
+        required: true
+        type: string
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            $ref: '#/definitions/user.GetProfileResponse'
+        "400":
+          description: Invalid Argument
+          schema:
+            type: string
+        "404":
+          description: Not Found
+          schema:
+            type: string
+        "500":
+          description: Internal Server Error
+          schema:
+            type: string
+      summary: GetProfile
+      tags:
+      - auth
+  /auth/delete-profile:
+    delete:
+      consumes:
+      - application/json
+      description: DeleteProfile
+      operationId: delete-profile
+      parameters:
+      - description: User
+        in: body
+        name: user
+        required: true
+        schema:
+          $ref: '#/definitions/user.DeleteProfileRequest'
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            $ref: '#/definitions/user.DeleteProfileResponse'
+        "400":
+          description: Invalid Argument
+          schema:
+            type: string
+        "404":
+          description: Not Found
+          schema:
+            type: string
+        "500":
+          description: Internal Server Error
+          schema:
+            type: string
+      summary: DeleteProfile
+      tags:
+      - auth
+  /auth/profiles:
+    get:
+      consumes:
+      - application/json
+      description: GetAllProfile
+      operationId: get-all-profile
+      parameters:
+      - description: Offset
+        in: query
+        name: offset
+        type: integer
+      - description: Limit
+        in: query
+        name: limit
+        type: integer
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            $ref: '#/definitions/user.GetProfilesResponse'
+        "400":
+          description: Invalid Argument
+          schema:
+            type: string
+        "404":
+          description: Not Found
+          schema:
+            type: string
+        "500":
+          description: Internal Server Error
+          schema:
+            type: string
+      summary: GetAllProfile
+      tags:
+      - auth
+  /auth/update-profile:
+    put:
+      consumes:
+      - application/json
+      description: UpdateProfile
+      operationId: update-profile
+      parameters:
+      - description: User
+        in: body
+        name: user
+        required: true
+        schema:
+          $ref: '#/definitions/user.UpdateProfileRequest'
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            $ref: '#/definitions/user.UpdateProfileResponse'
+        "400":
+          description: Invalid Argument
+          schema:
+            type: string
+        "404":
+          description: Not Found
+          schema:
+            type: string
+        "500":
+          description: Internal Server Error
+          schema:
+            type: string
+      summary: UpdateProfile
+      tags:
+      - auth
+  /booking/{id}:
+    delete:
+      consumes:
+      - application/json
+      description: DeleteBooking
+      operationId: delete-booking
+      parameters:
+      - description: id
+        in: path
+        name: id
+        required: true
+        type: string
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            $ref: '#/definitions/booking.CancelBookingResponse'
+        "400":
+          description: Bad Request
+          schema:
+            type: string
+        "500":
+          description: Internal Server Error
+          schema:
+            type: string
+      summary: DeleteBooking
+      tags:
+      - booking
+    get:
+      consumes:
+      - application/json
+      description: GetBooking
+      operationId: get-booking
+      parameters:
+      - description: id
+        in: path
+        name: id
+        required: true
+        type: string
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            $ref: '#/definitions/booking.GetBookingResponse'
+        "400":
+          description: Bad Request
+          schema:
+            type: string
+        "500":
+          description: Internal Server Error
+          schema:
+            type: string
+      summary: GetBooking
+      tags:
+      - booking
+  /booking/create-booking:
+    post:
+      consumes:
+      - application/json
+      description: CreateBooking
+      operationId: create-booking
+      parameters:
+      - description: CreateBookingRequest
+        in: body
+        name: booking
+        required: true
+        schema:
+          $ref: '#/definitions/booking.CreateBookingRequest'
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            $ref: '#/definitions/booking.CreateBookingResponse'
+        "400":
+          description: Bad Request
+          schema:
+            type: string
+        "500":
+          description: Internal Server Error
+          schema:
+            type: string
+      summary: CreateBooking
+      tags:
+      - booking
+  /booking/list-bookings:
+    get:
+      consumes:
+      - application/json
+      description: ListBookings
+      operationId: list-bookings
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            $ref: '#/definitions/booking.ListBookingsResponse'
+        "400":
+          description: Bad Request
+          schema:
+            type: string
+        "500":
+          description: Internal Server Error
+          schema:
+            type: string
+      summary: ListBookings
+      tags:
+      - booking
+  /booking/update-booking:
+    put:
+      consumes:
+      - application/json
+      description: UpdateBooking
+      operationId: update-booking
+      parameters:
+      - description: UpdateBookingRequest
+        in: body
+        name: booking
+        required: true
+        schema:
+          $ref: '#/definitions/booking.UpdateBookingRequest'
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            $ref: '#/definitions/booking.UpdateBookingResponse'
+        "400":
+          description: Bad Request
+          schema:
+            type: string
+        "500":
+          description: Internal Server Error
+          schema:
+            type: string
+      summary: UpdateBooking
+      tags:
+      - booking
+  /payment/{id}:
+    get:
+      consumes:
+      - application/json
+      description: GetPayment
+      operationId: get-payment
+      parameters:
+      - description: id
+        in: query
+        name: id
+        required: true
+        type: string
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            $ref: '#/definitions/booking.GetPaymentResponse'
+        "400":
+          description: Bad Request
+          schema:
+            type: string
+        "404":
+          description: Not Found
+          schema:
+            type: string
+        "500":
+          description: Internal Server Error
+          schema:
+            type: string
+      tags:
+      - payment
+  /payment/create-payment:
+    post:
+      consumes:
+      - application/json
+      description: CreatePayment
+      operationId: create-payment
+      parameters:
+      - description: CreatePaymentRequest
+        in: body
+        name: payment
+        required: true
+        schema:
+          $ref: '#/definitions/booking.CreatePaymentRequest'
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            $ref: '#/definitions/booking.CreatePaymentResponse'
+        "400":
+          description: Bad Request
+          schema:
+            type: string
+        "404":
+          description: Not Found
+          schema:
+            type: string
+        "500":
+          description: Internal Server Error
+          schema:
+            type: string
+      summary: CreatePayment
+      tags:
+      - payment
+  /payment/delete-payment/{id}:
+    delete:
+      consumes:
+      - application/json
+      description: DeletePayment
+      operationId: delete-payment
+      parameters:
+      - description: id
+        in: path
+        name: id
+        required: true
+        type: string
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            $ref: '#/definitions/booking.DeletePaymentResponse'
+        "400":
+          description: Bad Request
+          schema:
+            type: string
+        "404":
+          description: Not Found
+          schema:
+            type: string
+        "500":
+          description: Internal Server Error
+          schema:
+            type: string
+      summary: DeletePayment
+      tags:
+      - payment
+  /payment/list-payments:
+    get:
+      consumes:
+      - application/json
+      description: ListPayment
+      operationId: list-payment
+      parameters:
+      - description: offset
+        in: query
+        name: offset
+        type: string
+      - description: limit
+        in: query
+        name: limit
+        type: string
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            $ref: '#/definitions/booking.ListPaymentsResponse'
+        "400":
+          description: Bad Request
+          schema:
+            type: string
+        "404":
+          description: Not Found
+          schema:
+            type: string
+        "500":
+          description: Internal Server Error
+          schema:
+            type: string
+      summary: ListPayment
+      tags:
+      - payment
+  /payment/update-payment:
+    put:
+      consumes:
+      - application/json
+      description: UpdatePayment
+      operationId: update-payment
+      parameters:
+      - description: UpdatePaymentRequest
+        in: body
+        name: payment
+        required: true
+        schema:
+          $ref: '#/definitions/booking.UpdatePaymentRequest'
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            $ref: '#/definitions/booking.UpdatePaymentResponse'
+        "400":
+          description: Bad Request
+          schema:
+            type: string
+        "404":
+          description: Not Found
+          schema:
+            type: string
+        "500":
+          description: Internal Server Error
+          schema:
+            type: string
+      summary: UpdatePayment
+      tags:
+      - payment
+  /provider/{id}:
+    get:
+      consumes:
+      - application/json
+      description: Retrieve a provider by ID
+      operationId: get-provider
+      parameters:
+      - description: Provider ID
+        in: path
+        name: id
+        required: true
+        type: string
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            $ref: '#/definitions/booking.GetProviderResponse'
+        "400":
+          description: Bad Request
+          schema:
+            type: string
+        "500":
+          description: Internal Server Error
+          schema:
+            type: string
+      summary: GetProvider
+      tags:
+      - provider
+  /provider/create-provider:
+    post:
+      consumes:
+      - application/json
+      description: Create a new provider
+      operationId: create-provider
+      parameters:
+      - description: CreateProviderRequest
+        in: body
+        name: provider
+        required: true
+        schema:
+          $ref: '#/definitions/booking.CreateProviderRequest'
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            $ref: '#/definitions/booking.CreateProviderResponse'
+        "400":
+          description: Bad Request
+          schema:
+            type: string
+        "500":
+          description: Internal Server Error
+          schema:
+            type: string
+      summary: CreateProvider
+      tags:
+      - provider
+  /provider/delete-provider:
+    delete:
+      consumes:
+      - application/json
+      description: Delete a provider by ID
+      operationId: delete-provider
+      parameters:
+      - description: Provider ID
+        in: query
+        name: id
+        required: true
+        type: string
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            $ref: '#/definitions/booking.DeleteProviderResponse'
+        "400":
+          description: Bad Request
+          schema:
+            type: string
+        "500":
+          description: Internal Server Error
+          schema:
+            type: string
+      summary: DeleteProvider
+      tags:
+      - provider
+  /provider/list-providers:
+    get:
+      consumes:
+      - application/json
+      description: List providers with pagination
+      operationId: list-providers
+      parameters:
+      - description: Offset for pagination
+        in: query
+        name: offset
+        type: integer
+      - description: Limit for pagination
+        in: query
+        name: limit
+        type: integer
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            $ref: '#/definitions/booking.ListProvidersResponse'
+        "400":
+          description: Bad Request
+          schema:
+            type: string
+        "500":
+          description: Internal Server Error
+          schema:
+            type: string
+      summary: ListProviders
+      tags:
+      - provider
+  /provider/search-provider:
+    get:
+      consumes:
+      - application/json
+      description: Search providers based on various criteria such as user ID, company
+        name, availability, and location.
+      operationId: search-providers
+      parameters:
+      - description: User ID
+        example: '"12345"'
+        in: query
+        name: userId
+        type: string
+      - description: Company Name
+        example: '"Tech Solutions"'
+        in: query
+        name: companyName
+        type: string
+      - description: City
+        example: '"San Francisco"'
+        in: query
+        name: city
+        type: string
+      - description: Country
+        example: '"USA"'
+        in: query
+        name: country
+        type: string
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            $ref: '#/definitions/booking.SearchProvidersResponse'
+        "400":
+          description: Bad Request
+          schema:
+            type: string
+        "500":
+          description: Internal Server Error
+          schema:
+            type: string
+      summary: SearchProviders
+      tags:
+      - provider
+  /provider/update-provider:
+    put:
+      consumes:
+      - application/json
+      description: Update an existing provider
+      operationId: update-provider
+      parameters:
+      - description: UpdateProviderRequest
+        in: body
+        name: provider
+        required: true
+        schema:
+          $ref: '#/definitions/booking.UpdateProviderRequest'
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            $ref: '#/definitions/booking.UpdateProviderResponse'
+        "400":
+          description: Bad Request
+          schema:
+            type: string
+        "500":
+          description: Internal Server Error
+          schema:
+            type: string
+      summary: UpdateProvider
+      tags:
+      - provider
+  /review/create-review:
+    post:
+      consumes:
+      - application/json
+      description: CreateReview
+      operationId: create-review
+      parameters:
+      - description: CreateReviewRequest
+        in: body
+        name: review
+        required: true
+        schema:
+          $ref: '#/definitions/booking.CreateReviewRequest'
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            $ref: '#/definitions/booking.CreateReviewResponse'
+        "400":
+          description: Bad Request
+          schema:
+            type: string
+        "500":
+          description: Internal Server Error
+          schema:
+            type: string
+      summary: CreateReview
+      tags:
+      - review
+  /review/delete-review:
+    delete:
+      consumes:
+      - application/json
+      description: DeleteReview
+      operationId: delete-review
+      parameters:
+      - description: DeleteReviewRequest
+        in: body
+        name: review
+        required: true
+        schema:
+          $ref: '#/definitions/booking.DeleteReviewRequest'
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            $ref: '#/definitions/booking.DeleteReviewResponse'
+        "400":
+          description: Bad Request
+          schema:
+            type: string
+        "500":
+          description: Internal Server Error
+          schema:
+            type: string
+      summary: DeleteReview
+      tags:
+      - review
+  /review/list-review:
+    get:
+      consumes:
+      - application/json
+      description: ListReviews
+      operationId: list-reviews
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            $ref: '#/definitions/booking.ListReviewsResponse'
+        "400":
+          description: Bad Request
+          schema:
+            type: string
+        "500":
+          description: Internal Server Error
+          schema:
+            type: string
+      summary: ListReviews
+      tags:
+      - review
+  /review/update-review:
+    put:
+      consumes:
+      - application/json
+      description: UpdateReview
+      operationId: update-review
+      parameters:
+      - description: UpdateReviewRequest
+        in: body
+        name: review
+        required: true
+        schema:
+          $ref: '#/definitions/booking.UpdateReviewRequest'
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            $ref: '#/definitions/booking.UpdateReviewResponse'
+        "400":
+          description: Bad Request
+          schema:
+            type: string
+        "500":
+          description: Internal Server Error
+          schema:
+            type: string
+      summary: UpdateReview
+      tags:
+      - review
+  /service/create-service:
+    post:
+      consumes:
+      - application/json
+      description: CreateService
+      operationId: create-service
+      parameters:
+      - description: CreateServiceRequest
+        in: body
+        name: service
+        required: true
+        schema:
+          $ref: '#/definitions/booking.CreateServiceRequest'
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            $ref: '#/definitions/booking.CreateServiceResponse'
+        "400":
+          description: Bad Request
+          schema:
+            type: string
+        "500":
+          description: Internal Server Error
+          schema:
+            type: string
+      summary: CreateService
+      tags:
+      - service
+  /service/delete-service:
+    delete:
+      consumes:
+      - application/json
+      description: DeleteService
+      operationId: delete-service
+      parameters:
+      - description: DeleteServiceRequest
+        in: body
+        name: service
+        required: true
+        schema:
+          $ref: '#/definitions/booking.DeleteServiceRequest'
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            $ref: '#/definitions/booking.DeleteServiceResponse'
+        "400":
+          description: Bad Request
+          schema:
+            type: string
+        "500":
+          description: Internal Server Error
+          schema:
+            type: string
+      summary: DeleteService
+      tags:
+      - service
+  /service/list-service:
+    get:
+      consumes:
+      - application/json
+      description: ListServices
+      operationId: list-service
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            $ref: '#/definitions/booking.ListServicesResponse'
+        "400":
+          description: Bad Request
+          schema:
+            type: string
+        "500":
+          description: Internal Server Error
+          schema:
+            type: string
+      summary: ListServices
+      tags:
+      - service
+  /service/search-service:
+    get:
+      consumes:
+      - application/json
+      description: Search for services with optional filters
+      operationId: search-service
+      parameters:
+      - description: Service ID
+        in: query
+        name: id
+        type: string
+      - description: User ID
+        in: query
+        name: user_id
+        type: string
+      - description: Price
+        in: query
+        name: price
+        type: number
+      - description: Duration
+        in: query
+        name: duration
+        type: integer
+      - description: Description
+        in: query
+        name: description
+        type: string
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            $ref: '#/definitions/booking.SearchServicesResponse'
+        "400":
+          description: Bad Request
+          schema:
+            type: string
+        "500":
+          description: Internal Server Error
+          schema:
+            type: string
+      summary: SearchServices
+      tags:
+      - service
+  /service/update-service:
+    put:
+      consumes:
+      - application/json
+      description: UpdateService
+      operationId: update-service
+      parameters:
+      - description: UpdateServiceRequest
+        in: body
+        name: service
+        required: true
+        schema:
+          $ref: '#/definitions/booking.UpdateServiceRequest'
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            $ref: '#/definitions/booking.UpdateServiceResponse'
+        "400":
+          description: Bad Request
+          schema:
+            type: string
+        "500":
+          description: Internal Server Error
+          schema:
+            type: string
+      summary: UpdateService
+      tags:
+      - service
+securityDefinitions:
+  BearerAuth:
+    in: header
+    name: Authorization
+    type: apiKey
+swagger: "2.0"

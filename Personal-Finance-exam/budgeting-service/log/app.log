@@ -1,0 +1,87 @@
+{"time":"2024-08-15T11:33:20.103210851+05:00","level":"INFO","msg":"Shutting down, waiting for consumers to finish"}
+{"time":"2024-08-15T11:33:20.103394044+05:00","level":"INFO","msg":"Context done, stopping consumer","consumer":"UpdateGoal"}
+{"time":"2024-08-15T11:33:20.103429362+05:00","level":"INFO","msg":"Context done, stopping consumer","consumer":"UpdateBudget"}
+{"time":"2024-08-15T11:33:20.103445109+05:00","level":"INFO","msg":"Context done, stopping consumer","consumer":"CreateTransaction"}
+{"time":"2024-08-15T11:33:20.103459952+05:00","level":"INFO","msg":"All consumers have stopped"}
+{"time":"2024-08-15T11:34:38.023370349+05:00","level":"INFO","msg":"Shutting down, waiting for consumers to finish"}
+{"time":"2024-08-15T11:34:38.023576903+05:00","level":"INFO","msg":"Context done, stopping consumer","consumer":"UpdateGoal"}
+{"time":"2024-08-15T11:34:38.023624146+05:00","level":"INFO","msg":"Context done, stopping consumer","consumer":"UpdateBudget"}
+{"time":"2024-08-15T11:34:38.02363833+05:00","level":"INFO","msg":"Context done, stopping consumer","consumer":"CreateTransaction"}
+{"time":"2024-08-15T11:34:38.023653049+05:00","level":"INFO","msg":"All consumers have stopped"}
+{"time":"2024-08-15T11:38:36.511838779+05:00","level":"INFO","msg":"Shutting down, waiting for consumers to finish"}
+{"time":"2024-08-15T11:38:36.511906307+05:00","level":"INFO","msg":"Context done, stopping consumer","consumer":"UpdateGoal"}
+{"time":"2024-08-15T11:38:36.511922148+05:00","level":"INFO","msg":"Context done, stopping consumer","consumer":"UpdateBudget"}
+{"time":"2024-08-15T11:38:36.511929381+05:00","level":"INFO","msg":"Context done, stopping consumer","consumer":"CreateTransaction"}
+{"time":"2024-08-15T11:38:36.511937214+05:00","level":"INFO","msg":"All consumers have stopped"}
+{"time":"2024-08-15T11:39:49.035859781+05:00","level":"INFO","msg":"Shutting down, waiting for consumers to finish"}
+{"time":"2024-08-15T11:39:49.036037964+05:00","level":"INFO","msg":"Context done, stopping consumer","consumer":"UpdateGoal"}
+{"time":"2024-08-15T11:39:49.036077434+05:00","level":"INFO","msg":"Context done, stopping consumer","consumer":"CreateTransaction"}
+{"time":"2024-08-15T11:39:49.036316198+05:00","level":"INFO","msg":"Context done, stopping consumer","consumer":"UpdateBudget"}
+{"time":"2024-08-15T11:39:49.03660633+05:00","level":"INFO","msg":"All consumers have stopped"}
+{"time":"2024-08-15T11:52:40.139735372+05:00","level":"ERROR","msg":"could not delete account: account not found"}
+{"time":"2024-08-15T12:00:51.745775918+05:00","level":"INFO","msg":"Shutting down, waiting for consumers to finish"}
+{"time":"2024-08-15T12:00:51.746132847+05:00","level":"INFO","msg":"Context done, stopping consumer","consumer":"UpdateGoal"}
+{"time":"2024-08-15T12:00:51.746173277+05:00","level":"INFO","msg":"Context done, stopping consumer","consumer":"CreateTransaction"}
+{"time":"2024-08-15T12:00:51.746192261+05:00","level":"INFO","msg":"Context done, stopping consumer","consumer":"UpdateBudget"}
+{"time":"2024-08-15T12:00:51.746304956+05:00","level":"INFO","msg":"All consumers have stopped"}
+{"time":"2024-08-15T14:44:31.44799195+05:00","level":"INFO","msg":"Shutting down, waiting for consumers to finish"}
+{"time":"2024-08-15T14:44:31.448492466+05:00","level":"INFO","msg":"Context done, stopping consumer","consumer":"UpdateGoal"}
+{"time":"2024-08-15T14:44:31.448538501+05:00","level":"INFO","msg":"Context done, stopping consumer","consumer":"CreateTransaction"}
+{"time":"2024-08-15T14:44:31.448557777+05:00","level":"INFO","msg":"Context done, stopping consumer","consumer":"UpdateBudget"}
+{"time":"2024-08-15T14:44:31.448576442+05:00","level":"INFO","msg":"All consumers have stopped"}
+{"time":"2024-08-15T14:47:41.303441289+05:00","level":"INFO","msg":"Shutting down, waiting for consumers to finish"}
+{"time":"2024-08-15T14:47:41.303674113+05:00","level":"INFO","msg":"Context done, stopping consumer","consumer":"UpdateGoal"}
+{"time":"2024-08-15T14:47:41.303725514+05:00","level":"INFO","msg":"Context done, stopping consumer","consumer":"UpdateBudget"}
+{"time":"2024-08-15T14:47:41.303748028+05:00","level":"INFO","msg":"Context done, stopping consumer","consumer":"CreateTransaction"}
+{"time":"2024-08-15T14:47:41.303796149+05:00","level":"INFO","msg":"All consumers have stopped"}
+{"time":"2024-08-15T14:47:47.332884553+05:00","level":"INFO","msg":"Shutting down, waiting for consumers to finish"}
+{"time":"2024-08-15T14:47:47.333007077+05:00","level":"INFO","msg":"Context done, stopping consumer","consumer":"UpdateGoal"}
+{"time":"2024-08-15T14:47:47.33310252+05:00","level":"INFO","msg":"Context done, stopping consumer","consumer":"UpdateBudget"}
+{"time":"2024-08-15T14:47:47.333199458+05:00","level":"INFO","msg":"Context done, stopping consumer","consumer":"CreateTransaction"}
+{"time":"2024-08-15T14:47:47.333226096+05:00","level":"INFO","msg":"All consumers have stopped"}
+{"time":"2024-08-15T14:48:21.260281123+05:00","level":"INFO","msg":"Shutting down, waiting for consumers to finish"}
+{"time":"2024-08-15T14:48:21.260392021+05:00","level":"INFO","msg":"Context done, stopping consumer","consumer":"UpdateBudget"}
+{"time":"2024-08-15T14:48:21.260427198+05:00","level":"INFO","msg":"Context done, stopping consumer","consumer":"UpdateGoal"}
+{"time":"2024-08-15T14:48:21.260447991+05:00","level":"INFO","msg":"Context done, stopping consumer","consumer":"CreateTransaction"}
+{"time":"2024-08-15T14:48:21.260469318+05:00","level":"INFO","msg":"All consumers have stopped"}
+{"time":"2024-08-15T14:48:35.323821798+05:00","level":"INFO","msg":"Shutting down, waiting for consumers to finish"}
+{"time":"2024-08-15T14:48:35.323958707+05:00","level":"INFO","msg":"Context done, stopping consumer","consumer":"UpdateBudget"}
+{"time":"2024-08-15T14:48:35.323994294+05:00","level":"INFO","msg":"Context done, stopping consumer","consumer":"UpdateGoal"}
+{"time":"2024-08-15T14:48:35.324014025+05:00","level":"INFO","msg":"Context done, stopping consumer","consumer":"CreateTransaction"}
+{"time":"2024-08-15T14:48:35.324032816+05:00","level":"INFO","msg":"All consumers have stopped"}
+{"time":"2024-08-15T14:49:09.737741433+05:00","level":"INFO","msg":"Shutting down, waiting for consumers to finish"}
+{"time":"2024-08-15T14:49:09.737883849+05:00","level":"INFO","msg":"Context done, stopping consumer","consumer":"CreateTransaction"}
+{"time":"2024-08-15T14:49:09.737922206+05:00","level":"INFO","msg":"Context done, stopping consumer","consumer":"UpdateGoal"}
+{"time":"2024-08-15T14:49:09.73794428+05:00","level":"INFO","msg":"Context done, stopping consumer","consumer":"UpdateBudget"}
+{"time":"2024-08-15T14:49:09.73796249+05:00","level":"INFO","msg":"All consumers have stopped"}
+{"time":"2024-08-15T14:51:54.488962916+05:00","level":"INFO","msg":"Shutting down, waiting for consumers to finish"}
+{"time":"2024-08-15T14:51:54.489111657+05:00","level":"INFO","msg":"Context done, stopping consumer","consumer":"UpdateGoal"}
+{"time":"2024-08-15T14:51:54.489152675+05:00","level":"INFO","msg":"Context done, stopping consumer","consumer":"UpdateBudget"}
+{"time":"2024-08-15T14:51:54.48917537+05:00","level":"INFO","msg":"Context done, stopping consumer","consumer":"CreateTransaction"}
+{"time":"2024-08-15T14:51:54.489198755+05:00","level":"INFO","msg":"All consumers have stopped"}
+{"time":"2024-08-15T14:52:31.635955812+05:00","level":"INFO","msg":"Shutting down, waiting for consumers to finish"}
+{"time":"2024-08-15T14:52:31.6362237+05:00","level":"INFO","msg":"Context done, stopping consumer","consumer":"UpdateBudget"}
+{"time":"2024-08-15T14:52:31.636257743+05:00","level":"INFO","msg":"Context done, stopping consumer","consumer":"CreateTransaction"}
+{"time":"2024-08-15T14:52:31.636277241+05:00","level":"INFO","msg":"Context done, stopping consumer","consumer":"UpdateGoal"}
+{"time":"2024-08-15T14:52:31.636297398+05:00","level":"INFO","msg":"All consumers have stopped"}
+{"time":"2024-08-15T14:54:04.180974907+05:00","level":"INFO","msg":"Shutting down, waiting for consumers to finish"}
+{"time":"2024-08-15T14:54:04.181658656+05:00","level":"INFO","msg":"Context done, stopping consumer","consumer":"UpdateGoal"}
+{"time":"2024-08-15T14:54:04.181752002+05:00","level":"INFO","msg":"Context done, stopping consumer","consumer":"CreateTransaction"}
+{"time":"2024-08-15T14:54:04.181803399+05:00","level":"INFO","msg":"Context done, stopping consumer","consumer":"UpdateBudget"}
+{"time":"2024-08-15T14:54:04.18182299+05:00","level":"INFO","msg":"All consumers have stopped"}
+{"time":"2024-08-15T14:54:51.024726925+05:00","level":"INFO","msg":"Shutting down, waiting for consumers to finish"}
+{"time":"2024-08-15T14:54:51.024856701+05:00","level":"INFO","msg":"Context done, stopping consumer","consumer":"UpdateGoal"}
+{"time":"2024-08-15T14:54:51.024893328+05:00","level":"INFO","msg":"Context done, stopping consumer","consumer":"UpdateBudget"}
+{"time":"2024-08-15T14:54:51.024913163+05:00","level":"INFO","msg":"Context done, stopping consumer","consumer":"CreateTransaction"}
+{"time":"2024-08-15T14:54:51.024932988+05:00","level":"INFO","msg":"All consumers have stopped"}
+{"time":"2024-08-15T15:43:56.28335821+05:00","level":"INFO","msg":"Shutting down, waiting for consumers to finish"}
+{"time":"2024-08-15T15:43:56.283499421+05:00","level":"INFO","msg":"Context done, stopping consumer","consumer":"UpdateGoal"}
+{"time":"2024-08-15T15:43:56.283532197+05:00","level":"INFO","msg":"Context done, stopping consumer","consumer":"UpdateBudget"}
+{"time":"2024-08-15T15:43:56.283551971+05:00","level":"INFO","msg":"Context done, stopping consumer","consumer":"CreateTransaction"}
+{"time":"2024-08-15T15:43:56.283569868+05:00","level":"INFO","msg":"All consumers have stopped"}
+{"time":"2024-08-15T16:04:07.289141537+05:00","level":"ERROR","msg":"Error while unmarshaling data","error":"json: cannot unmarshal string into Go value of type transaction.CreateTransactionReq"}
+{"time":"2024-08-15T18:52:08.015808064+05:00","level":"INFO","msg":"Shutting down, waiting for consumers to finish"}
+{"time":"2024-08-15T18:52:08.015878484+05:00","level":"INFO","msg":"Context done, stopping consumer","consumer":"UpdateGoal"}
+{"time":"2024-08-15T18:52:08.015892234+05:00","level":"INFO","msg":"Context done, stopping consumer","consumer":"UpdateBudget"}
+{"time":"2024-08-15T18:52:08.015898375+05:00","level":"INFO","msg":"Context done, stopping consumer","consumer":"CreateTransaction"}
+{"time":"2024-08-15T18:52:08.015904111+05:00","level":"INFO","msg":"All consumers have stopped"}

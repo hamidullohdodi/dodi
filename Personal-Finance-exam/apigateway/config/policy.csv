@@ -1,0 +1,55 @@
+p, user, /user/*, GET
+p, user, /user/*, PUT
+p, user, /user/*, DELETE
+p, user,/account/*,POST
+p, user,/account/*,GET
+p,user,/account/*,DELETE
+p,user,/account/*,PUT
+p,user, /transaction/*,GET
+p,user, /category/*,PUT
+p,user, /category/*,POST
+p,user, /category/*,DELETE
+p,user, /category/*,GET
+p, user,/budget/*,POST
+p,user,/budget/*,GET
+p,user,/budget/*,DELETE
+p,user,/goal/*, GET
+p,user,/goal/*,DELETE
+p,user,/goal/*,POST
+p,user,/goal/*,PUT
+p,admin,/goal/*,PUT
+p,admin,/goal/*,POST
+p,admin,/goal/*,DELETE
+p,admin,/goal/*,GET
+p,admin,/goal/*,GET
+p,admin,/get/*,GET
+p,admin,/get/*,GET
+p,admin,/get/*,GET
+p,admin,/get/*,GET
+p,admin,/budget/*,GET
+p,admin,/budget/*,DELETE
+p,admin,/budget/*,GET
+p,admin,/budget/*,POST
+p,admin,/budget/*,PUT
+p,admin,/category/*,GET
+p,admin,/category/*,GET
+p,admin,/category/*,DELETE
+p,admin,/category/*,PUT
+p,admin,/category/*,POST
+p,admin,/transaction/*,GET
+p,admin,/transaction/*,GET
+p,admin,/transaction/*,DELETE
+p,admin,/transaction/*,POST
+p,admin,/transaction/*,PUT
+p,admin,/account/*,GET
+p,admin,/account/*,GET
+p,admin,/account/*,PUT
+p,admin,/account/*,POST
+p,admin,/account/*,DELETE
+p,admin,/user/*,GET
+p,admin,/user/*,POST
+p,admin,/user/*,PUT
+p,admin,/not/*,PUT
+p,admin,/not/*,GET
+p,admin,/not/*,POST
+p,admin,/not/*,DELETE

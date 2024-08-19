@@ -1,0 +1,70 @@
+syntax = "proto3";
+
+option go_package = "genproto/user";
+
+package user;
+
+service UserService{
+  rpc GetProfile(UserId) returns (UserResp);
+  rpc UpdateProfile(EditProfileReq) returns (UserResp);
+  rpc DeleteUser(UserId) returns (Void);
+}
+
+message UserId {
+  string Id = 1;
+}
+
+// message Params {
+//   string from = 1;
+//   string password = 2;
+//   string to = 3;
+//   string massage = 4;
+//   string code = 5;
+// }
+
+message Void {}
+
+message UserResp{
+  string Id = 1;
+  string FirstName = 2;
+  string Email = 3;
+  string LastName = 4;
+  string DateOfBirth = 5;
+  string CreatedAt = 6;
+}
+
+message EditProfileReq {
+  string Id = 1;
+  string FirstName = 2;
+  string Email = 3;
+  string LastName = 4;
+  string DateOfBirth = 5;
+}
+
+
+// message ProfileResp{
+//   string Id = 1;
+//   string FirstName = 2;
+//   string Email = 3;
+//   string LastName = 4;
+//   string DateOfBirth = 5;
+//   string UpdatedAt = 6;
+// }
+
+// message ChangePasswordReq{
+//   string Id = 1;
+//   string CurrentPassword = 2;
+//   string NewPassword = 3;
+// }
+
+// message ChangePasswordReqBody{
+//   string CurrentPassword = 1;
+//   string NewPassword = 2;
+// }
+
+// message Setting {
+//   string PrivacyLevel = 1;
+//   string Notification = 2;
+//   string Language = 3;
+//   string Theme = 4;
+// }

@@ -1,0 +1,47 @@
+syntax = "proto3";
+
+option go_package = "genproto/category";
+
+service CategoryService {
+
+  rpc CreateCategory(CreateCategoryReq) returns (CategoryResp);
+  rpc UpdateCategory(UpdateCategoryReq) returns (CategoryResp);
+  rpc DeleteCategory(DeleteCategoryReq) returns (Void2);
+  rpc ListCategories(ListCategoriesReq) returns (ListCategoriesResp);
+}
+message  Void2 {}
+
+message CategoryResp {
+  string UserId = 5;
+  string Id = 1;
+  string Name = 2;
+  string Description = 3;
+  string CreatedAt = 4;
+}
+
+message CreateCategoryReq {
+  string UserId = 3;
+  string Id = 4;
+  string Name = 1;
+  string Description = 2;
+}
+
+message UpdateCategoryReq {
+  string UserId = 1;
+  string Id = 4;
+  string Name = 2;
+  string Description = 3;
+}
+
+message DeleteCategoryReq {
+  string UserId = 3;
+}
+
+message ListCategoriesReq {
+  string Limit = 1;
+  string Paid = 2;
+}
+
+message ListCategoriesResp {
+  repeated CategoryResp Categories = 1;
+}

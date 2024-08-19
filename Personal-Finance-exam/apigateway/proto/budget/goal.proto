@@ -1,0 +1,107 @@
+syntax = "proto3";
+
+option go_package = "genproto/goal";
+
+package goal;
+
+service GoalService {
+
+  rpc CreateGoal(CreateGoalReq) returns (GoalResp);
+  rpc GetGoal(GetGoalReq) returns (GoalResp);
+  rpc UpdateGoal(UpdateGoalReq) returns (GoalResp);
+  rpc DeleteGoal(DeleteGoalReq) returns (Void3);
+  rpc ListGoals(ListGoalsReq) returns (ListGoalsResp);
+
+  rpc GetUserSpending(GetUserMoneyRequest)returns(GetUserMoneyResponse);
+  rpc GetUserIncome(GetUserMoneyRequest)returns(GetUserMoneyResponse);
+  rpc GetGoalReportProgress(GoalProgressRequest)returns (GoalProgressResponse);
+  rpc GetBudgetSummary(UserId)returns(GetUserBudgetResponse);
+}
+message UserId {
+  string UserId = 1;
+}
+
+message  BudgetSummaryItem{
+  string UserId = 6;
+  string  CategoryId=1;
+  float  TotalAmount=2;
+  string  StartingTime=3;
+  string  EndingTime=4;
+  string  Period=5;
+}
+message GetUserBudgetResponse{
+  repeated BudgetSummaryItem Results=1;
+}
+
+message   GetUserMoneyRequest{
+  string  UserId=1;
+  string  StartingTime=2;
+  string  EndingTime=3;
+}
+message  GetUserMoneyResponse{
+  string  CategoryId=1;
+  float  TotalAmount=2;
+  string  Time=3;
+}
+
+message  GoalProgressRequest {
+  string  UserId=1;
+  string  StartingTime=2;
+  string  EndingTime=3;
+}
+
+message  GoalProgressItem {
+  string  Status=1;
+  float  TargetAmount=2;
+  float  CurrentAmount=3;
+  float  TotalAmount=4;
+
+
+}
+message GoalProgressResponse {
+  repeated GoalProgressItem results = 1;
+}
+
+message Void3 {}
+
+
+message GoalResp {
+  string user_id = 1;
+  string name = 2;
+  string target_amount = 3;
+  string current_amount = 4;
+  string deadline = 5;
+  string created_at = 6;
+}
+
+message CreateGoalReq {
+  string user_id = 4;
+  string name = 1;
+  string target_amount = 2;
+  string deadline = 3;
+}
+
+message GetGoalReq {
+  string user_id = 1;
+}
+
+message UpdateGoalReq {
+  string user_id = 1;
+  string name = 2;
+  string target_amount = 3;
+  string current_amount = 4;
+  string deadline = 5;
+}
+
+message DeleteGoalReq {
+  string user_id = 1;
+}
+
+message ListGoalsReq {
+  string limit = 1;
+  string offset = 2;
+}
+
+message ListGoalsResp {
+  repeated GoalResp goals = 1;
+}

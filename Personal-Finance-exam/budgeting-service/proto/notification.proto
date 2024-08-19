@@ -1,0 +1,58 @@
+syntax = "proto3";
+
+option go_package = "genproto/notification";
+
+package notifications;
+
+service NotificationService {
+  rpc CreateNotification(CreateNotificationReq) returns (NotificationResp);
+  rpc GetNotification(GetNotificationReq) returns (NotificationResp);
+  rpc UpdateNotification(UpdateNotificationReq) returns (NotificationResp);
+  rpc DeleteNotification(DeleteNotificationReq) returns (DeleteNotificationResp);
+}
+
+message Notification {
+  string Id = 1;
+  string Title = 2;
+  string Message = 3;
+  bool Readen = 4;
+  string CreatedAt = 5;
+  string UpdatedAt = 6;
+}
+
+message CreateNotificationReq {
+  string Title = 1;
+  string Message = 2;
+}
+
+message GetNotificationReq {
+  string Id = 1;
+}
+
+message UpdateNotificationReq {
+  string Id = 1;
+  string Title = 2;
+  string Message = 3;
+}
+
+message DeleteNotificationReq {
+  string Id = 1;
+}
+
+
+message ListNotificationsReq {
+  int32 Limit = 1;
+  int32 Paid = 2;
+}
+
+message NotificationResp {
+  Notification Notification = 1;
+}
+
+message DeleteNotificationResp {
+  bool Success = 1;
+}
+
+message ListNotificationsResp {
+  repeated Notification Notifications = 1;
+}

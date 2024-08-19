@@ -1,0 +1,68 @@
+syntax = "proto3";
+
+option go_package = "genproto/auth";
+
+package auth;
+
+service AuthService{
+  rpc Register (RegisterUserReq) returns (RegisterUserResp);
+  rpc Login (LoginUserReq) returns (LoginUserResp);
+  // rpc ValidateToken (ValidateTokenReq) returns (ValidateTokenResp);
+  // rpc RefreshToken (RefreshTokenReq) returns (RefreshTokenResp);
+}
+
+message ValidateTokenReq {
+  string user_id = 1;
+}
+
+message ValidateTokenResp {
+  string user_id = 1;
+  bool valid = 2;
+  string expires_at = 3;
+}
+
+message RefreshTokenReq {
+  string user_id = 1;
+  string token = 2;
+}
+
+message RefreshTokenResp {
+  string new_token = 1;
+  string expires_at = 2;
+}
+
+message Empty {}
+
+message User{
+  string Id = 1;
+  string FirstName = 2;
+  string Email = 3;
+  string Role = 4;
+}
+
+message RegisterUserReq{
+  string FirstName = 1;
+  string Email = 2;
+  string Password = 3;
+  string LastName = 4;
+  string Role = 5;
+  string DateOfBirth = 6;
+}
+
+message RegisterUserResp{
+  string ID = 1;
+  string FirstName = 2;
+  string Email = 3;
+  string LastName = 4;
+  string CreateAt = 5;
+}
+
+message LoginUserReq{
+  string FirstName = 1;
+  string Password = 2;
+}
+
+message LoginUserResp{
+  string Token = 1;
+  string ExpiresAt = 2;
+}

@@ -1,0 +1,160 @@
+services:
+
+  api_gateway:
+    container_name: apigateway
+    build:
+      context: ./apigateway
+      dockerfile: Dockerfile
+    volumes:
+      - ./logger:/app/logger
+    ports:
+      - "8080:8080"
+    environment:
+      - USER_PORT=8070
+      - API_GATEWAY=8080
+      - BUDGETING_PORT=7090
+      - SIGNING_KEY=secret_key
+    depends_on:
+      redis:
+        condition: service_started
+      postgresdb:
+        condition: service_started
+      rabbitmq:
+        condition: service_healthy
+      mongodb:
+        condition: service_started
+    networks:
+      - mynetwork
+
+  user_service:
+    container_name: user-service
+    build:
+      context: ./user-service
+      dockerfile: Dockerfile
+    volumes:
+      - ./logger:/app/logger
+    ports:
+      - "8070:8070"
+    environment:
+      - DB_HOST=postgresdb
+      - DB_USER=postgres
+      - DB_NAME=auth
+      - DB_PASSWORD=1
+      - DB_PORT=5432
+      - LOGPATH=logger/info.log
+      - AUTH_PORT=7070
+      - USER_PORT=8070
+      - API_PORT=8080
+    depends_on:
+      postgresdb:
+        condition: service_started
+    networks:
+      - mynetwork
+
+  migrate:
+    image: migrate/migrate
+    networks:
+      - mynetwork
+    volumes:
+      - ./user-service/migrations:/migrations
+    command: ["-path", "/migrations","-database", "postgres://postgres:1@postgresdb:5432/auth?sslmode=disable","up"]
+    depends_on:
+      postgresdb:
+        condition: service_healthy
+
+  budgeting_service:
+    container_name: budgeting-service
+    build:
+      context: ./budgeting-service
+      dockerfile: Dockerfile
+    volumes:
+      - ./logger:/app/logger
+    ports:
+      - "7090:7090"
+    environment:
+      - API_GATEWAY=8080
+      - BUDGETING_PORT=7090docker-compose build
+
+    depends_on:
+      redis:
+        condition: service_started
+      rabbitmq:
+        condition: service_healthy
+      mongodb:
+        condition: service_started
+    networks:
+      - mynetwork
+
+  redis:
+    container_name: redis
+    image: redis:7.2.5-alpine
+    restart: always
+    ports:
+      - "6381:6380"
+    healthcheck:
+      test: ["CMD", "redis-cli", "ping"]
+      interval: 10s
+      timeout: 10s
+      retries: 5
+    networks:
+      - mynetwork
+
+  mongodb:
+    container_name: mongodb
+    image: mongo:4.4
+    restart: always
+    ports:
+      - "27018:27017"
+    healthcheck:
+      test: ["CMD", "mongo", "--eval", "db.runCommand({ ping: 1 })"]
+      interval: 10s
+      timeout: 10s
+      retries: 5
+    networks:
+      - mynetwork
+
+  rabbitmq:
+    container_name: rabbitmq
+    image: rabbitmq:3-management
+    restart: always
+    ports:
+      - "5673:5672"
+      - "15673:15672"
+    volumes:
+      - ${HOME}/dev-rabbitmq/data/:/var/lib/rabbitmq
+      - ${HOME}/dev-rabbitmq/log/:/var/log/rabbitmq
+    healthcheck:
+      test: ["CMD", "rabbitmq-diagnostics", "-q", "ping"]
+      interval: 10s
+      timeout: 10s
+      retries: 5
+    networks:
+      - mynetwork
+
+  postgresdb:
+    container_name: postgresdb
+    image: postgres:14-alpine
+    restart: always
+    environment:
+      POSTGRES_DB: auth
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: 1
+      PGDATA: /var/lib/postgresql/data
+    volumes:
+      - db-data:/var/lib/postgresql/data
+    ports:
+      - "5433:5432"
+    networks:
+      - mynetwork
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -d postgres"]
+      interval: 30s
+      timeout: 10s
+      retries: 5
+
+networks:
+  mynetwork:
+    driver: bridge
+
+volumes:
+  db-data:

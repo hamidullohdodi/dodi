@@ -1,0 +1,63 @@
+syntax = "proto3";
+
+option go_package = "genproto/transaction";
+
+package transaction;
+
+service TransactionService {
+
+  rpc CreateTransaction(CreateTransactionReq) returns (TransactionResp);
+  rpc GetTransaction(GetTransactionReq) returns (TransactionResp);
+  rpc UpdateTransaction(UpdateTransactionReq) returns (TransactionResp);
+  rpc DeleteTransaction(DeleteTransactionReq) returns (Void4);
+  rpc ListTransactions(ListTransactionsReq) returns (ListTransactionsResp);
+}
+
+message Void4 {}
+
+message TransactionResp {
+  string user_id = 8;
+  string id = 1;
+  string account_id = 2;
+  string category_id = 3;
+  string amount = 4;
+  string date = 5;
+  string description = 6;
+  string created_at = 7;
+}
+
+message CreateTransactionReq {
+  string user_id = 6;
+  string account_id = 1;
+  string category_id = 2;
+  string amount = 3;
+  string date = 4;
+  string description = 5;
+}
+
+message GetTransactionReq {
+  string user_id = 1;
+}
+
+message UpdateTransactionReq {
+  string user_id = 1;
+  string id = 7;
+  string account_id = 2;
+  string category_id = 3;
+  string amount = 4;
+  string date = 5;
+  string description = 6;
+}
+
+message DeleteTransactionReq {
+  string user_id = 1;
+}
+
+message ListTransactionsReq {
+  string limit = 1;
+  string offset = 2;
+}
+
+message ListTransactionsResp {
+  repeated TransactionResp transactions = 1;
+}

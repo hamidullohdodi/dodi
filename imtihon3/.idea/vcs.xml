@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="$PROJECT_DIR$/Api_gatawey" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Api_gatawey/Submodul" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/ProductServer" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/ProductServer/Submodul" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Submodul" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/authService" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/authService/Submodul" vcs="Git" />
+  </component>
+</project>

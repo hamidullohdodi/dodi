@@ -1,0 +1,40 @@
+2024-07-15T12:32:08.567+0500	FATAL	cmd/main.go:26	dial tcp: lookup tcp/%!s(int=5432): unknown port
+main.main
+	/home/xamidullayev/github/im3/Product_Service/cmd/main.go:26
+runtime.main
+	/snap/go/10660/src/runtime/proc.go:271
+2024-07-15T12:33:46.458+0500	FATAL	cmd/main.go:26	dial tcp: lookup tcp/%!s(int=5432): unknown port
+main.main
+	/home/xamidullayev/github/im3/Product_Service/cmd/main.go:26
+runtime.main
+	/snap/go/10660/src/runtime/proc.go:271
+2024-07-15T12:33:48.423+0500	FATAL	cmd/main.go:26	dial tcp: lookup tcp/%!s(int=5432): unknown port
+main.main
+	/home/xamidullayev/github/im3/Product_Service/cmd/main.go:26
+runtime.main
+	/snap/go/10660/src/runtime/proc.go:271
+2024-07-15T12:36:37.101+0500	FATAL	cmd/main.go:23	dial tcp: lookup tcp/%!s(int=5432): unknown port
+main.main
+	/home/xamidullayev/github/im3/Product_Service/cmd/main.go:23
+runtime.main
+	/snap/go/10660/src/runtime/proc.go:271
+2024-07-15T13:10:30.365+0500	FATAL	cmd/main.go:23	dial tcp: lookup tcp/%!s(int=5432): unknown port
+main.main
+	/home/xamidullayev/github/im3/Product_Service/cmd/main.go:23
+runtime.main
+	/snap/go/10660/src/runtime/proc.go:271
+2024-07-15T13:11:22.307+0500	FATAL	cmd/main.go:23	dial tcp: lookup tcp/%!s(int=5432): unknown port
+main.main
+	/home/xamidullayev/github/im3/Product_Service/cmd/main.go:23
+runtime.main
+	/snap/go/10660/src/runtime/proc.go:271
+2024-07-15T13:12:24.961+0500	FATAL	cmd/main.go:23	dial tcp: lookup tcp/%!s(int=5432): unknown port
+main.main
+	/home/xamidullayev/github/im3/Product_Service/cmd/main.go:23
+runtime.main
+	/snap/go/10660/src/runtime/proc.go:271
+2024-07-15T13:13:18.639+0500	FATAL	cmd/main.go:27	listen tcp :8080: bind: address already in use
+main.main
+	/home/xamidullayev/github/im3/Product_Service/cmd/main.go:27
+runtime.main
+	/snap/go/10660/src/runtime/proc.go:271

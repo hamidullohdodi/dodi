@@ -1,0 +1,98 @@
+syntax = "proto3";
+
+option go_package = "/genproto";
+
+package protos;
+
+message Void {}
+
+service AuthService {
+    rpc RegisterUser(RegisterUserReq) returns (Register) {} //POST /api/v1/auth/register
+    rpc LoginUser(LoginReq) returns (Token) {} //POST /api/v1/auth/login
+    rpc GetUser (ById) returns (Register) {} //GET /api/v1/users/profile
+    rpc UpdateUser(UpdateUserReq) returns (Register) {} //PUT /api/v1/users/profile-byid
+    rpc UpdateUserType(UserTypeReq) returns (UserTypeRes) {} //PUT /api/v1/users/type
+    rpc GetAllUsers(PageLimit) returns (GetAllUsersRes) {} //GET /api/v1/users?page=1&limit=10
+    rpc DeleteUser(ById) returns (Void) {} //DELETE /api/v1/users/{user_id}
+    rpc ResetPassword(ByEmail) returns (Void) {} //POST /api/v1/auth/reset-password
+    rpc RefreshToken (RefreshTokenReq) returns (Token) {} //POST /api/v1/auth/refresh
+}
+
+message RegisterUserReq {
+    string username = 1;
+    string email = 2;
+    string password = 3;
+    string full_name = 4;
+    string user_type = 5;
+    string bio = 6;
+}
+
+message Register {
+    string Id = 1;
+    string username = 2;
+    string email = 3;
+    string password = 4;
+    string full_name = 5;
+    string user_type = 6;
+    string bio = 7;
+}
+
+message LoginReq {
+    string email = 1;
+    string password = 2;
+}
+
+message Token {
+    string AccessToken = 1;
+    string RefreshToken = 2;
+    int64 expires_in = 3;
+}
+
+message RefreshTokenReq {
+    string RefreshToken = 1;
+}
+
+message ById {
+    string Id = 1;
+}
+
+message UserFilter {
+    string Id = 1;
+    string username = 2;
+    string email = 3;
+    string full_name = 4;
+    string user_type = 5;
+    string bio = 6;
+}
+
+message UpdateUserReq {
+    string username = 1;
+    string email = 2;
+    string password = 3;
+    string full_name = 4;
+    string user_type = 5;
+    string bio = 6;
+}
+
+message UserTypeReq {
+    string user_type = 1;
+}
+
+message UserTypeRes {
+    string Id = 1;
+    string username = 2;
+    string user_type = 3;
+    string updated_at = 4;
+}
+
+message GetAllUsersRes {
+    repeated Register GetAllUsersRes = 1;
+}
+
+message PageLimit {
+    int64 limit = 1;
+}
+
+message ByEmail {
+    string email = 1;
+}

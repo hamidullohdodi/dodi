@@ -1,0 +1,1012 @@
+definitions:
+  genproto.GetAllUsersRes:
+    properties:
+      GetAllUsersRes:
+        items:
+          $ref: '#/definitions/genproto.Register'
+        type: array
+    type: object
+  genproto.LoginReq:
+    properties:
+      email:
+        type: string
+      password:
+        type: string
+    type: object
+  genproto.Register:
+    properties:
+      Id:
+        type: string
+      bio:
+        type: string
+      email:
+        type: string
+      full_name:
+        type: string
+      password:
+        type: string
+      user_type:
+        type: string
+      username:
+        type: string
+    type: object
+  genproto.RegisterUserReq:
+    properties:
+      bio:
+        type: string
+      email:
+        type: string
+      full_name:
+        type: string
+      password:
+        type: string
+      user_type:
+        type: string
+      username:
+        type: string
+    type: object
+  genproto.Token:
+    properties:
+      AccessToken:
+        type: string
+      RefreshToken:
+        type: string
+      expires_in:
+        type: integer
+    type: object
+  genproto.UpdateUserReq:
+    properties:
+      bio:
+        type: string
+      email:
+        type: string
+      full_name:
+        type: string
+      password:
+        type: string
+      user_type:
+        type: string
+      username:
+        type: string
+    type: object
+  genproto.Void:
+    type: object
+  product.AddProductRequest:
+    properties:
+      category_id:
+        type: string
+      description:
+        type: string
+      name:
+        type: string
+      price:
+        type: number
+      quantity:
+        type: integer
+    type: object
+  product.AddRatingRequest:
+    properties:
+      comment:
+        type: string
+      product_id:
+        type: string
+      rating:
+        type: number
+    type: object
+  product.CancelOrderRequest:
+    properties:
+      order_id:
+        type: string
+    type: object
+  product.CheckPaymentStatusRequest:
+    properties:
+      order_id:
+        type: string
+    type: object
+  product.CreateOrderRequest:
+    properties:
+      items:
+        items:
+          $ref: '#/definitions/product.OrderItem'
+        type: array
+      shipping_address:
+        $ref: '#/definitions/product.ShippingAddress'
+    type: object
+  product.DeleteProductRequest:
+    properties:
+      product_id:
+        type: string
+    type: object
+  product.DeleteProductResponse:
+    properties:
+      message:
+        type: string
+    type: object
+  product.EditProductRequest:
+    properties:
+      category_id:
+        type: string
+      description:
+        type: string
+      name:
+        type: string
+      price:
+        type: number
+      product_id:
+        type: string
+      quantity:
+        type: integer
+    type: object
+  product.ListOrdersRequest:
+    properties:
+      limit:
+        type: integer
+      page:
+        type: integer
+    type: object
+  product.ListOrdersResponse:
+    properties:
+      limit:
+        type: integer
+      orders:
+        items:
+          $ref: '#/definitions/product.OrderResponse'
+        type: array
+      page:
+        type: integer
+      total:
+        type: integer
+    type: object
+  product.ListProductsResponse:
+    properties:
+      limit:
+        type: integer
+      page:
+        type: integer
+      products:
+        items:
+          $ref: '#/definitions/product.ProductResponse'
+        type: array
+      total:
+        type: integer
+    type: object
+  product.ListRatingsResponse:
+    properties:
+      average_rating:
+        type: number
+      ratings:
+        items:
+          $ref: '#/definitions/product.RatingResponse'
+        type: array
+      total_ratings:
+        type: integer
+    type: object
+  product.OrderItem:
+    properties:
+      price:
+        type: number
+      product_id:
+        type: string
+      quantity:
+        type: integer
+    type: object
+  product.OrderPaymentRequest:
+    properties:
+      card_number:
+        type: string
+      cvv:
+        type: string
+      expiry_date:
+        type: string
+      order_id:
+        type: string
+      payment_method:
+        type: string
+    type: object
+  product.OrderResponse:
+    properties:
+      created_at:
+        type: string
+      id:
+        type: string
+      items:
+        items:
+          $ref: '#/definitions/product.OrderItem'
+        type: array
+      shipping_address:
+        $ref: '#/definitions/product.ShippingAddress'
+      status:
+        type: string
+      total_amount:
+        type: number
+      updated_at:
+        type: string
+      user_id:
+        type: string
+    type: object
+  product.PaymentResponse:
+    properties:
+      amount:
+        type: number
+      created_at:
+        type: string
+      order_id:
+        type: string
+      payment_id:
+        type: string
+      status:
+        type: string
+      transaction_id:
+        type: string
+    type: object
+  product.ProductResponse:
+    properties:
+      artisan_id:
+        type: string
+      category_id:
+        type: string
+      created_at:
+        type: string
+      description:
+        type: string
+      id:
+        type: string
+      name:
+        type: string
+      price:
+        type: number
+      quantity:
+        type: integer
+      updated_at:
+        type: string
+    type: object
+  product.RatingResponse:
+    properties:
+      comment:
+        type: string
+      created_at:
+        type: string
+      id:
+        type: string
+      product_id:
+        type: string
+      rating:
+        type: number
+      user_id:
+        type: string
+    type: object
+  product.ShippingAddress:
+    properties:
+      city:
+        type: string
+      country:
+        type: string
+      street:
+        type: string
+      zip_code:
+        type: string
+    type: object
+  product.ShippingResponse:
+    properties:
+      carrier:
+        type: string
+      estimated_delivery_date:
+        type: string
+      order_id:
+        type: string
+      tracking_number:
+        type: string
+      updated_at:
+        type: string
+    type: object
+  product.UpdateOrderStatusRequest:
+    properties:
+      order_id:
+        type: string
+      status:
+        type: string
+    type: object
+  product.UpdateOrderStatusResponse:
+    properties:
+      order_id:
+        type: string
+      status:
+        type: string
+      updated_at:
+        type: string
+    type: object
+  product.UpdateShippingRequest:
+    properties:
+      carrier:
+        type: string
+      estimated_delivery_date:
+        type: string
+      order_id:
+        type: string
+      tracking_number:
+        type: string
+    type: object
+info:
+  contact: {}
+  title: swagger UI
+paths:
+  /orders/cancel:
+    put:
+      consumes:
+      - application/json
+      description: This API cancels an order
+      parameters:
+      - description: Order Cancel
+        in: body
+        name: order
+        required: true
+        schema:
+          $ref: '#/definitions/product.CancelOrderRequest'
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            $ref: '#/definitions/product.UpdateOrderStatusResponse'
+        "400":
+          description: Error
+          schema: {}
+        "500":
+          description: Error
+          schema: {}
+      security:
+      - BearerAuth: []
+      summary: Cancel Order
+      tags:
+      - order
+  /orders/create:
+    post:
+      consumes:
+      - application/json
+      description: This API creates an order
+      parameters:
+      - description: Order
+        in: body
+        name: order
+        required: true
+        schema:
+          $ref: '#/definitions/product.CreateOrderRequest'
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            $ref: '#/definitions/product.OrderResponse'
+        "400":
+          description: Error
+          schema: {}
+        "500":
+          description: Error
+          schema: {}
+      security:
+      - BearerAuth: []
+      summary: Create Order
+      tags:
+      - order
+  /orders/create/pay:
+    post:
+      consumes:
+      - application/json
+      description: This API processes the payment for an order
+      parameters:
+      - description: PaymentInformation
+        in: body
+        name: payment
+        required: true
+        schema:
+          $ref: '#/definitions/product.OrderPaymentRequest'
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            $ref: '#/definitions/product.PaymentResponse'
+        "400":
+          description: Error
+          schema: {}
+        "500":
+          description: Error
+          schema: {}
+      security:
+      - BearerAuth: []
+      summary: Pay for Order
+      tags:
+      - order
+  /orders/get/{id}:
+    get:
+      consumes:
+      - application/json
+      description: This API gets details of an order
+      parameters:
+      - description: Get Order
+        in: path
+        name: id
+        required: true
+        type: string
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            $ref: '#/definitions/product.OrderResponse'
+        "400":
+          description: Error
+          schema: {}
+        "500":
+          description: Error
+          schema: {}
+      security:
+      - BearerAuth: []
+      summary: Get Order
+      tags:
+      - order
+  /orders/list:
+    get:
+      consumes:
+      - application/json
+      description: This API lists all orders
+      parameters:
+      - description: List Orders
+        in: body
+        name: order
+        required: true
+        schema:
+          $ref: '#/definitions/product.ListOrdersRequest'
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            $ref: '#/definitions/product.ListOrdersResponse'
+        "400":
+          description: Error
+          schema: {}
+        "500":
+          description: Error
+          schema: {}
+      security:
+      - BearerAuth: []
+      summary: List Orders
+      tags:
+      - order
+  /orders/payment-status:
+    get:
+      consumes:
+      - application/json
+      description: This API checks the payment status of an order
+      parameters:
+      - description: Payment Status
+        in: body
+        name: payment_status
+        required: true
+        schema:
+          $ref: '#/definitions/product.CheckPaymentStatusRequest'
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            $ref: '#/definitions/product.PaymentResponse'
+        "400":
+          description: Error
+          schema: {}
+        "500":
+          description: Error
+          schema: {}
+      security:
+      - BearerAuth: []
+      summary: Check Payment Status
+      tags:
+      - order
+  /orders/shipping-info:
+    put:
+      consumes:
+      - application/json
+      description: This API updates the shipping information for an order
+      parameters:
+      - description: Shipping Information
+        in: body
+        name: shipping_info
+        required: true
+        schema:
+          $ref: '#/definitions/product.UpdateShippingRequest'
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            $ref: '#/definitions/product.ShippingResponse'
+        "400":
+          description: Error
+          schema: {}
+        "500":
+          description: Error
+          schema: {}
+      security:
+      - BearerAuth: []
+      summary: Update Shipping Information
+      tags:
+      - order
+  /orders/status:
+    put:
+      consumes:
+      - application/json
+      description: This API updates the status of an order
+      parameters:
+      - description: OUpdate Order Status
+        in: body
+        name: order
+        required: true
+        schema:
+          $ref: '#/definitions/product.UpdateOrderStatusRequest'
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            $ref: '#/definitions/product.UpdateOrderStatusResponse'
+        "400":
+          description: Error
+          schema: {}
+        "500":
+          description: Error
+          schema: {}
+      security:
+      - BearerAuth: []
+      summary: Update Order Status
+      tags:
+      - order
+  /products/creat:
+    post:
+      consumes:
+      - application/json
+      description: This API is for creating a product
+      parameters:
+      - description: Product
+        in: body
+        name: product
+        required: true
+        schema:
+          $ref: '#/definitions/product.AddProductRequest'
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            $ref: '#/definitions/product.ProductResponse'
+        "400":
+          description: Error
+          schema: {}
+        "500":
+          description: Error
+          schema: {}
+      security:
+      - BearerAuth: []
+      summary: Create Product
+      tags:
+      - products
+  /products/delete:
+    delete:
+      consumes:
+      - application/json
+      description: This API for deleting a product
+      parameters:
+      - description: Product
+        in: body
+        name: product
+        required: true
+        schema:
+          $ref: '#/definitions/product.DeleteProductRequest'
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            $ref: '#/definitions/product.DeleteProductResponse'
+        "400":
+          description: Error
+          schema: {}
+        "500":
+          description: Error
+          schema: {}
+      security:
+      - BearerAuth: []
+      summary: Delete Product
+      tags:
+      - products
+  /products/product/up:
+    put:
+      consumes:
+      - application/json
+      description: This API for updating a product
+      parameters:
+      - description: Product
+        in: body
+        name: product
+        required: true
+        schema:
+          $ref: '#/definitions/product.EditProductRequest'
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            $ref: '#/definitions/product.ProductResponse'
+        "400":
+          description: Error
+          schema: {}
+        "500":
+          description: Error
+          schema: {}
+      security:
+      - BearerAuth: []
+      summary: Update Product
+      tags:
+      - products
+  /products/products/{id}:
+    get:
+      consumes:
+      - application/json
+      description: Retrieves a product by ID
+      parameters:
+      - description: Product ID
+        in: query
+        name: id
+        required: true
+        type: string
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            $ref: '#/definitions/product.ProductResponse'
+        "400":
+          description: Bad Request
+          schema: {}
+        "404":
+          description: Not Found
+          schema: {}
+        "500":
+          description: Internal Server Error
+          schema: {}
+      security:
+      - BearerAuth: []
+      summary: Get Product
+      tags:
+      - products
+  /products/products/list:
+    get:
+      consumes:
+      - application/json
+      description: This API for listing products
+      parameters:
+      - description: Product limit
+        in: query
+        name: limit
+        required: true
+        type: integer
+      - description: Product page
+        in: query
+        name: page
+        required: true
+        type: integer
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            $ref: '#/definitions/product.ListProductsResponse'
+        "400":
+          description: Error
+          schema: {}
+        "500":
+          description: Error
+          schema: {}
+      security:
+      - BearerAuth: []
+      summary: List Products
+      tags:
+      - products
+  /products/products/list/:
+    get:
+      consumes:
+      - application/json
+      description: This API for listing ratings of a product
+      parameters:
+      - description: Product ID
+        in: query
+        name: id
+        required: true
+        type: string
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            $ref: '#/definitions/product.ListRatingsResponse'
+        "400":
+          description: Error
+          schema: {}
+        "500":
+          description: Error
+          schema: {}
+      security:
+      - BearerAuth: []
+      summary: List Product
+      tags:
+      - products
+  /products/products/rating:
+    post:
+      consumes:
+      - application/json
+      description: This API for listing ratings of a product
+      parameters:
+      - description: Product
+        in: body
+        name: ratings
+        required: true
+        schema:
+          $ref: '#/definitions/product.AddRatingRequest'
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            $ref: '#/definitions/product.RatingResponse'
+        "400":
+          description: Error
+          schema: {}
+        "500":
+          description: Error
+          schema: {}
+      security:
+      - BearerAuth: []
+      summary: List Product
+      tags:
+      - products
+  /products/products/search:
+    get:
+      consumes:
+      - application/json
+      description: This API for adding a rating to a product
+      parameters:
+      - description: Product ID
+        in: query
+        name: limit
+        required: true
+        type: integer
+      - description: Product ID
+        in: query
+        name: page
+        required: true
+        type: integer
+      - description: Product ID
+        in: query
+        name: min1
+        required: true
+        type: integer
+      - description: Product ID
+        in: query
+        name: max2
+        required: true
+        type: integer
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            $ref: '#/definitions/product.ListProductsResponse'
+        "400":
+          description: Error
+          schema: {}
+        "500":
+          description: Error
+          schema: {}
+      security:
+      - BearerAuth: []
+      summary: Add Product
+      tags:
+      - products
+  /registers/login:
+    post:
+      consumes:
+      - application/json
+      description: Log in a user
+      parameters:
+      - description: Login Request
+        in: body
+        name: user
+        required: true
+        schema:
+          $ref: '#/definitions/genproto.LoginReq'
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            $ref: '#/definitions/genproto.Token'
+        "400":
+          description: Error
+          schema: {}
+        "500":
+          description: Error
+          schema: {}
+      summary: Login User
+      tags:
+      - register
+  /registers/register:
+    post:
+      consumes:
+      - application/json
+      description: Register a new user
+      parameters:
+      - description: Register User Request
+        in: body
+        name: user
+        required: true
+        schema:
+          $ref: '#/definitions/genproto.RegisterUserReq'
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            $ref: '#/definitions/genproto.Register'
+        "400":
+          description: Error
+          schema: {}
+        "500":
+          description: Error
+          schema: {}
+      summary: Register User
+      tags:
+      - register
+  /users/all/{id}:
+    get:
+      consumes:
+      - application/json
+      description: Get all users
+      parameters:
+      - description: Page number
+        in: query
+        name: page
+        type: integer
+      - description: Limit per page
+        in: query
+        name: limit
+        type: integer
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            $ref: '#/definitions/genproto.GetAllUsersRes'
+        "400":
+          description: Error
+          schema: {}
+        "500":
+          description: Error
+          schema: {}
+      security:
+      - BearerAuth: []
+      summary: Get All Users
+      tags:
+      - user
+  /users/delete/{id}:
+    delete:
+      consumes:
+      - application/json
+      description: Delete a user
+      parameters:
+      - description: User ID
+        in: path
+        name: id
+        required: true
+        type: string
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            $ref: '#/definitions/genproto.Void'
+        "400":
+          description: Error
+          schema: {}
+        "500":
+          description: Error
+          schema: {}
+      security:
+      - BearerAuth: []
+      summary: Delete User
+      tags:
+      - user
+  /users/get/{id}:
+    get:
+      consumes:
+      - application/json
+      description: Get user information
+      parameters:
+      - description: User ID
+        in: path
+        name: id
+        required: true
+        type: string
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            $ref: '#/definitions/genproto.Register'
+        "400":
+          description: Error
+          schema: {}
+        "500":
+          description: Error
+          schema: {}
+      security:
+      - BearerAuth: []
+      summary: Get User
+      tags:
+      - user
+  /users/update:
+    put:
+      consumes:
+      - application/json
+      description: Update user information
+      parameters:
+      - description: Update User Request
+        in: body
+        name: user
+        required: true
+        schema:
+          $ref: '#/definitions/genproto.UpdateUserReq'
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            $ref: '#/definitions/genproto.Register'
+        "400":
+          description: Error
+          schema: {}
+        "500":
+          description: Error
+          schema: {}
+      security:
+      - BearerAuth: []
+      summary: Update User
+      tags:
+      - user
+securityDefinitions:
+  BearerAuth:
+    in: header
+    name: Authorization
+    type: apiKey
+swagger: "2.0"

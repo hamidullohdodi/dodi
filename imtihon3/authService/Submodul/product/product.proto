@@ -1,0 +1,211 @@
+syntax = "proto3";
+
+option go_package = "genproto/product";
+
+package product;
+
+service ProductService {
+  rpc AddProduct (AddProductRequest) returns (ProductResponse);
+  rpc EditProduct (EditProductRequest) returns (ProductResponse);
+  rpc DeleteProduct (DeleteProductRequest) returns (DeleteProductResponse);
+  rpc ListProducts (ListProductsRequest) returns (ListProductsResponse);
+  rpc GetProduct (GetProductRequest) returns (ProductResponse);
+  rpc SearchProducts (SearchProductsRequest) returns (ListProductsResponse);
+  rpc AddRating (AddRatingRequest) returns (RatingResponse);
+  rpc ListRatings (ListRatingsRequest) returns (ListRatingsResponse);
+  rpc CreateOrder (CreateOrderRequest) returns (OrderResponse);
+  rpc CancelOrder (CancelOrderRequest) returns (UpdateOrderStatusResponse);
+  rpc UpdateOrderStatus (UpdateOrderStatusRequest) returns (UpdateOrderStatusResponse);
+  rpc ListOrders (ListOrdersRequest) returns (ListOrdersResponse);
+  rpc GetOrder (GetOrderRequest) returns (OrderResponse);
+  rpc OrderPayment (OrderPaymentRequest) returns (PaymentResponse);
+  rpc CheckPaymentStatus (CheckPaymentStatusRequest) returns (PaymentResponse);
+  rpc UpdateShipping (UpdateShippingRequest) returns (ShippingResponse);
+}
+
+message UpdateOrderStatusResponse {
+  string order_id = 1;
+  string status = 2;
+  string updated_at = 3;
+}
+
+message Void{
+
+}
+
+message AddProductRequest {
+  string name = 1;
+  string description = 2;
+  double price = 3;
+  string category_id = 4;
+  int32 quantity = 5;
+}
+
+message EditProductRequest {
+  string product_id = 1;
+  string name = 2;
+  string description = 3;
+  float price = 4;
+  string category_id = 5;
+  int32 quantity = 6;
+}
+
+message DeleteProductRequest {
+  string product_id = 1;
+}
+
+message ListProductsRequest {
+  int32 page = 1;
+  int32 limit = 2;
+}
+
+message GetProductRequest {
+  string product_id = 1;
+}
+
+message SearchProductsRequest {
+  string query = 1;
+  string category = 2;
+  double min_price = 3;
+  double max_price = 4;
+  int32 page = 5;
+  int32 limit = 6;
+}
+
+message AddRatingRequest {
+  string product_id = 1;
+  double rating = 2;
+  string comment = 3;
+}
+
+message ListRatingsRequest {
+  string product_id = 1;
+}
+
+message CreateOrderRequest {
+  repeated OrderItem items = 1;
+  ShippingAddress shipping_address = 2;
+}
+
+message CancelOrderRequest {
+  string order_id = 1;
+}
+
+message UpdateOrderStatusRequest {
+  string order_id = 1;
+  string status = 2;
+}
+
+message ListOrdersRequest {
+  int32 page = 1;
+  int32 limit = 2;
+}
+
+message GetOrderRequest {
+  string order_id = 1;
+}
+
+message OrderPaymentRequest {
+  string order_id = 1;
+  string payment_method = 2;
+  string card_number = 3;
+  string expiry_date = 4;
+  string cvv = 5;
+}
+
+message CheckPaymentStatusRequest {
+  string order_id = 1;
+}
+
+message UpdateShippingRequest {
+  string order_id = 1;
+  string tracking_number = 2;
+  string carrier = 3;
+  string estimated_delivery_date = 4;
+}
+
+message ProductResponse {
+  string id = 1;
+  string name = 2;
+  string description = 3;
+  double price = 4;
+  string category_id = 5;
+  int32 quantity = 6;
+  string artisan_id = 7;
+  string created_at = 8;
+  string updated_at = 9;
+}
+
+message DeleteProductResponse {
+  string message = 1;
+}
+
+message ListProductsResponse {
+  repeated ProductResponse products = 1;
+  int32 total = 2;
+  int32 page = 3;
+  int32 limit = 4;
+}
+
+message RatingResponse {
+  string id = 1;
+  string product_id = 2;
+  string user_id = 3;
+  double rating = 4;
+  string comment = 5;
+  string created_at = 6;
+}
+
+message ListRatingsResponse {
+  repeated RatingResponse ratings = 1;
+  double average_rating = 2;
+  int32 total_ratings = 3;
+}
+
+message OrderResponse {
+  string id = 1;
+  string user_id = 2;
+  repeated OrderItem items = 3;
+  double total_amount = 4;
+  string status = 5;
+  ShippingAddress shipping_address = 6;
+  string created_at = 7;
+  string updated_at = 8;
+}
+
+message PaymentResponse {
+  string order_id = 1;
+  string payment_id = 2;
+  double amount = 3;
+  string status = 4;
+  string transaction_id = 5;
+  string created_at = 6;
+}
+
+message ShippingResponse {
+  string order_id = 1;
+  string tracking_number = 2;
+  string carrier = 3;
+  string estimated_delivery_date = 4;
+  string updated_at = 5;
+}
+
+message OrderItem {
+  string product_id = 1;
+  int32 quantity = 2;
+  double price = 3;
+}
+
+message ShippingAddress {
+  string street = 1;
+  string city = 2;
+  string country = 3;
+  string zip_code = 4;
+}
+
+message ListOrdersResponse {
+  repeated OrderResponse orders = 1;
+  int32 total = 2;
+  int32 page = 3;
+  int32 limit = 4;
+}

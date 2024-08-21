@@ -12,7 +12,8 @@ import (
 )
 
 func main() {
-	logger := slog.Logger{}
+	var logger *slog.Logger
+	logger = slog.New(nil)
 
 	db, err := postgres.ConnectDB()
 	if err != nil {

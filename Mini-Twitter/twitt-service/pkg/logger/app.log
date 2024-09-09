@@ -1,0 +1,146 @@
+{"time":"2024-09-05T16:50:27.806823143+05:00","level":"ERROR","msg":"failed to post comment","!BADKEY":"pq: invalid input syntax for type uuid: \"string\""}
+{"time":"2024-09-05T16:50:27.806854748+05:00","level":"ERROR","msg":"Failed in PostComment: pq: invalid input syntax for type uuid: \"string\""}
+{"time":"2024-09-05T16:50:27.80694759+05:00","level":"ERROR","msg":"failed to post comment","!BADKEY":"pq: invalid input syntax for type uuid: \"string\""}
+{"time":"2024-09-05T16:50:27.806952102+05:00","level":"ERROR","msg":"Failed in PostComment: pq: invalid input syntax for type uuid: \"string\""}
+{"time":"2024-09-05T16:50:27.807128462+05:00","level":"ERROR","msg":"failed to post comment","!BADKEY":"pq: invalid input syntax for type uuid: \"string\""}
+{"time":"2024-09-05T16:50:27.807140694+05:00","level":"ERROR","msg":"Failed in PostComment: pq: invalid input syntax for type uuid: \"string\""}
+{"time":"2024-09-05T16:53:07.360781879+05:00","level":"ERROR","msg":"failed to post comment","!BADKEY":"pq: invalid input syntax for type uuid: \"string\""}
+{"time":"2024-09-05T16:53:07.360818548+05:00","level":"ERROR","msg":"Failed in PostComment: pq: invalid input syntax for type uuid: \"string\""}
+{"time":"2024-09-05T16:53:59.046267607+05:00","level":"ERROR","msg":"failed to post comment","!BADKEY":"pq: invalid input syntax for type uuid: \"string\""}
+{"time":"2024-09-05T16:53:59.046336632+05:00","level":"ERROR","msg":"Failed in PostComment: pq: invalid input syntax for type uuid: \"string\""}
+{"time":"2024-09-05T16:54:31.486996067+05:00","level":"INFO","msg":"Shutting down, waiting for consumers to finish"}
+{"time":"2024-09-05T16:54:31.487114851+05:00","level":"INFO","msg":"Context done, stopping consumer","consumer":"AddLike"}
+{"time":"2024-09-05T16:54:31.487152309+05:00","level":"INFO","msg":"Context done, stopping consumer","consumer":"PostTweet"}
+{"time":"2024-09-05T16:54:31.487170104+05:00","level":"INFO","msg":"Context done, stopping consumer","consumer":"PostComment"}
+{"time":"2024-09-05T16:54:31.487111969+05:00","level":"INFO","msg":"Context done, stopping consumer","consumer":"UpdateComment"}
+{"time":"2024-09-05T16:54:31.487161235+05:00","level":"INFO","msg":"Context done, stopping consumer","consumer":"UpdateTweet"}
+{"time":"2024-09-05T16:54:31.487232116+05:00","level":"INFO","msg":"All consumers have stopped"}
+{"time":"2024-09-05T16:55:06.009854013+05:00","level":"ERROR","msg":"failed to post comment","!BADKEY":"pq: invalid input syntax for type uuid: \"string\""}
+{"time":"2024-09-05T16:55:06.009901968+05:00","level":"ERROR","msg":"Failed in PostComment: pq: invalid input syntax for type uuid: \"string\""}
+{"time":"2024-09-05T16:56:10.832705888+05:00","level":"INFO","msg":"Shutting down, waiting for consumers to finish"}
+{"time":"2024-09-05T16:56:10.832801003+05:00","level":"INFO","msg":"Context done, stopping consumer","consumer":"AddLike"}
+{"time":"2024-09-05T16:56:10.832880521+05:00","level":"INFO","msg":"Context done, stopping consumer","consumer":"PostComment"}
+{"time":"2024-09-05T16:56:10.832895395+05:00","level":"INFO","msg":"Context done, stopping consumer","consumer":"UpdateComment"}
+{"time":"2024-09-05T16:56:10.832916998+05:00","level":"INFO","msg":"Context done, stopping consumer","consumer":"PostTweet"}
+{"time":"2024-09-05T16:56:10.832887994+05:00","level":"INFO","msg":"Context done, stopping consumer","consumer":"UpdateTweet"}
+{"time":"2024-09-05T16:56:10.832980693+05:00","level":"INFO","msg":"All consumers have stopped"}
+{"time":"2024-09-05T16:56:22.027197076+05:00","level":"ERROR","msg":"failed to post comment","!BADKEY":"pq: invalid input syntax for type uuid: \"string\""}
+{"time":"2024-09-05T16:56:22.027240219+05:00","level":"ERROR","msg":"Failed in PostComment: pq: invalid input syntax for type uuid: \"string\""}
+{"time":"2024-09-05T17:04:31.744222195+05:00","level":"INFO","msg":"Shutting down, waiting for consumers to finish"}
+{"time":"2024-09-05T17:04:31.744296163+05:00","level":"INFO","msg":"Context done, stopping consumer","consumer":"AddLike"}
+{"time":"2024-09-05T17:04:31.744303522+05:00","level":"INFO","msg":"Context done, stopping consumer","consumer":"UpdateTweet"}
+{"time":"2024-09-05T17:04:31.744295531+05:00","level":"INFO","msg":"Context done, stopping consumer","consumer":"UpdateComment"}
+{"time":"2024-09-05T17:04:31.744314236+05:00","level":"INFO","msg":"Context done, stopping consumer","consumer":"PostComment"}
+{"time":"2024-09-05T17:04:31.744401887+05:00","level":"INFO","msg":"Context done, stopping consumer","consumer":"PostTweet"}
+{"time":"2024-09-05T17:04:31.744427093+05:00","level":"INFO","msg":"All consumers have stopped"}
+{"time":"2024-09-05T17:17:47.35376823+05:00","level":"ERROR","msg":"failed to post tweet","!BADKEY":"pq: password authentication failed for user \"postgres\""}
+{"time":"2024-09-05T17:17:47.353951617+05:00","level":"ERROR","msg":"Failed in AddLike: pq: password authentication failed for user \"postgres\""}
+{"time":"2024-09-05T17:19:00.470723727+05:00","level":"INFO","msg":"Shutting down, waiting for consumers to finish"}
+{"time":"2024-09-05T17:19:00.470786927+05:00","level":"INFO","msg":"Context done, stopping consumer","consumer":"UpdateComment"}
+{"time":"2024-09-05T17:19:00.470794972+05:00","level":"INFO","msg":"Context done, stopping consumer","consumer":"UpdateTweet"}
+{"time":"2024-09-05T17:19:00.470818607+05:00","level":"INFO","msg":"Context done, stopping consumer","consumer":"PostTweet"}
+{"time":"2024-09-05T17:19:00.470809309+05:00","level":"INFO","msg":"Context done, stopping consumer","consumer":"AddLike"}
+{"time":"2024-09-05T17:19:00.470887828+05:00","level":"INFO","msg":"Context done, stopping consumer","consumer":"PostComment"}
+{"time":"2024-09-05T17:19:00.470918807+05:00","level":"INFO","msg":"All consumers have stopped"}
+{"time":"2024-09-05T17:21:50.01102687+05:00","level":"ERROR","msg":"failed to get liked tweets","!BADKEY":"pq: invalid input syntax for type uuid: \"{tweet_id}\""}
+{"time":"2024-09-05T17:22:17.216542924+05:00","level":"ERROR","msg":"failed to get liked tweets","!BADKEY":"pq: invalid input syntax for type uuid: \"{tweet_id}\""}
+{"time":"2024-09-05T17:25:44.05186196+05:00","level":"ERROR","msg":"failed to get liked tweets","!BADKEY":"pq: invalid input syntax for type uuid: \"{tweet_id}\""}
+{"time":"2024-09-05T17:28:44.246853305+05:00","level":"INFO","msg":"Shutting down, waiting for consumers to finish"}
+{"time":"2024-09-05T17:28:44.246922586+05:00","level":"INFO","msg":"Context done, stopping consumer","consumer":"AddLike"}
+{"time":"2024-09-05T17:28:44.24692499+05:00","level":"INFO","msg":"Context done, stopping consumer","consumer":"UpdateComment"}
+{"time":"2024-09-05T17:28:44.246939267+05:00","level":"INFO","msg":"Context done, stopping consumer","consumer":"UpdateTweet"}
+{"time":"2024-09-05T17:28:44.246937564+05:00","level":"INFO","msg":"Context done, stopping consumer","consumer":"PostComment"}
+{"time":"2024-09-05T17:28:44.247049025+05:00","level":"INFO","msg":"Context done, stopping consumer","consumer":"PostTweet"}
+{"time":"2024-09-05T17:28:44.247075125+05:00","level":"INFO","msg":"All consumers have stopped"}
+{"time":"2024-09-05T17:29:21.61436633+05:00","level":"INFO","msg":"Shutting down, waiting for consumers to finish"}
+{"time":"2024-09-05T17:29:21.614616133+05:00","level":"INFO","msg":"Context done, stopping consumer","consumer":"PostComment"}
+{"time":"2024-09-05T17:29:21.614638535+05:00","level":"INFO","msg":"Context done, stopping consumer","consumer":"AddLike"}
+{"time":"2024-09-05T17:29:21.614631822+05:00","level":"INFO","msg":"Context done, stopping consumer","consumer":"UpdateComment"}
+{"time":"2024-09-05T17:29:21.614646079+05:00","level":"INFO","msg":"Context done, stopping consumer","consumer":"UpdateTweet"}
+{"time":"2024-09-05T17:29:21.614759945+05:00","level":"INFO","msg":"Context done, stopping consumer","consumer":"PostTweet"}
+{"time":"2024-09-05T17:29:21.614786726+05:00","level":"INFO","msg":"All consumers have stopped"}
+{"time":"2024-09-05T17:31:07.471754084+05:00","level":"ERROR","msg":"failed to create liked tweet","!BADKEY":"pq: duplicate key value violates unique constraint \"likes_user_id_tweet_id_key\""}
+{"time":"2024-09-05T17:31:07.471832452+05:00","level":"ERROR","msg":"Failed in PostTweet: pq: duplicate key value violates unique constraint \"likes_user_id_tweet_id_key\""}
+{"time":"2024-09-05T17:32:27.974741759+05:00","level":"ERROR","msg":"failed to create liked tweet","!BADKEY":"pq: duplicate key value violates unique constraint \"likes_user_id_tweet_id_key\""}
+{"time":"2024-09-05T17:34:41.850768797+05:00","level":"ERROR","msg":"failed to get liked tweets","!BADKEY":"pq: invalid input syntax for type uuid: \"{tweet_id}\""}
+{"time":"2024-09-05T17:36:55.868783142+05:00","level":"INFO","msg":"Shutting down, waiting for consumers to finish"}
+{"time":"2024-09-05T17:36:55.868853582+05:00","level":"INFO","msg":"Context done, stopping consumer","consumer":"PostComment"}
+{"time":"2024-09-05T17:36:55.868881284+05:00","level":"INFO","msg":"Context done, stopping consumer","consumer":"PostTweet"}
+{"time":"2024-09-05T17:36:55.86886314+05:00","level":"INFO","msg":"Context done, stopping consumer","consumer":"AddLike"}
+{"time":"2024-09-05T17:36:55.868867929+05:00","level":"INFO","msg":"Context done, stopping consumer","consumer":"UpdateTweet"}
+{"time":"2024-09-05T17:36:55.868988923+05:00","level":"INFO","msg":"Context done, stopping consumer","consumer":"UpdateComment"}
+{"time":"2024-09-05T17:36:55.86903069+05:00","level":"INFO","msg":"All consumers have stopped"}
+{"time":"2024-09-05T17:37:04.25093404+05:00","level":"ERROR","msg":"failed to get liked tweets","!BADKEY":"pq: invalid input syntax for type uuid: \"{tweet_id}\""}
+{"time":"2024-09-05T17:39:58.44661495+05:00","level":"ERROR","msg":"failed to get liked tweets","!BADKEY":"pq: invalid input syntax for type uuid: \"{tweet_id}\""}
+{"time":"2024-09-05T17:39:59.183677859+05:00","level":"ERROR","msg":"failed to get liked tweets","!BADKEY":"pq: invalid input syntax for type uuid: \"{tweet_id}\""}
+{"time":"2024-09-05T17:39:59.388124002+05:00","level":"ERROR","msg":"failed to get liked tweets","!BADKEY":"pq: invalid input syntax for type uuid: \"{tweet_id}\""}
+{"time":"2024-09-05T17:39:59.52248037+05:00","level":"ERROR","msg":"failed to get liked tweets","!BADKEY":"pq: invalid input syntax for type uuid: \"{tweet_id}\""}
+{"time":"2024-09-05T17:39:59.651385929+05:00","level":"ERROR","msg":"failed to get liked tweets","!BADKEY":"pq: invalid input syntax for type uuid: \"{tweet_id}\""}
+{"time":"2024-09-05T17:39:59.768253296+05:00","level":"ERROR","msg":"failed to get liked tweets","!BADKEY":"pq: invalid input syntax for type uuid: \"{tweet_id}\""}
+{"time":"2024-09-05T17:39:59.878630309+05:00","level":"ERROR","msg":"failed to get liked tweets","!BADKEY":"pq: invalid input syntax for type uuid: \"{tweet_id}\""}
+{"time":"2024-09-05T17:39:59.979804928+05:00","level":"ERROR","msg":"failed to get liked tweets","!BADKEY":"pq: invalid input syntax for type uuid: \"{tweet_id}\""}
+{"time":"2024-09-05T17:40:27.292156186+05:00","level":"ERROR","msg":"failed to get liked tweets","!BADKEY":"pq: invalid input syntax for type uuid: \"{tweet_id}\""}
+{"time":"2024-09-05T17:42:00.287305398+05:00","level":"ERROR","msg":"failed to get liked tweets","!BADKEY":"pq: invalid input syntax for type uuid: \"{tweet_id}\""}
+{"time":"2024-09-05T17:48:00.963355071+05:00","level":"INFO","msg":"Shutting down, waiting for consumers to finish"}
+{"time":"2024-09-05T17:48:00.963405225+05:00","level":"INFO","msg":"Context done, stopping consumer","consumer":"AddLike"}
+{"time":"2024-09-05T17:48:00.963424321+05:00","level":"INFO","msg":"Context done, stopping consumer","consumer":"UpdateComment"}
+{"time":"2024-09-05T17:48:00.963424341+05:00","level":"INFO","msg":"Context done, stopping consumer","consumer":"PostTweet"}
+{"time":"2024-09-05T17:48:00.963403131+05:00","level":"INFO","msg":"Context done, stopping consumer","consumer":"UpdateTweet"}
+{"time":"2024-09-05T17:48:00.963560877+05:00","level":"INFO","msg":"Context done, stopping consumer","consumer":"PostComment"}
+{"time":"2024-09-05T17:48:00.963583489+05:00","level":"INFO","msg":"All consumers have stopped"}
+{"time":"2024-09-06T16:39:59.220992999+05:00","level":"ERROR","msg":"failed to create liked tweet","!BADKEY":"pq: password authentication failed for user \"postgres\""}
+{"time":"2024-09-06T16:39:59.221198928+05:00","level":"ERROR","msg":"Failed in PostTweet: pq: password authentication failed for user \"postgres\""}
+{"time":"2024-09-06T16:40:25.995434087+05:00","level":"INFO","msg":"Shutting down, waiting for consumers to finish"}
+{"time":"2024-09-06T16:40:25.995610497+05:00","level":"INFO","msg":"Context done, stopping consumer","consumer":"AddLike"}
+{"time":"2024-09-06T16:40:25.995635422+05:00","level":"INFO","msg":"Context done, stopping consumer","consumer":"UpdateTweet"}
+{"time":"2024-09-06T16:40:25.995670375+05:00","level":"INFO","msg":"Context done, stopping consumer","consumer":"UpdateComment"}
+{"time":"2024-09-06T16:40:25.995610507+05:00","level":"INFO","msg":"Context done, stopping consumer","consumer":"PostComment"}
+{"time":"2024-09-06T16:40:25.995883452+05:00","level":"INFO","msg":"Context done, stopping consumer","consumer":"PostTweet"}
+{"time":"2024-09-06T16:40:25.995927867+05:00","level":"INFO","msg":"All consumers have stopped"}
+{"time":"2024-09-06T16:40:52.306143484+05:00","level":"ERROR","msg":"failed to create liked tweet","!BADKEY":"pq: invalid input syntax for type uuid: \"string\""}
+{"time":"2024-09-06T16:40:52.306285347+05:00","level":"ERROR","msg":"Failed in PostTweet: pq: invalid input syntax for type uuid: \"string\""}
+{"time":"2024-09-06T16:42:05.251564889+05:00","level":"ERROR","msg":"failed to update tweet","!BADKEY":"pq: invalid input syntax for type uuid: \"string\""}
+{"time":"2024-09-06T16:42:05.251600623+05:00","level":"ERROR","msg":"Failed in UpdateTweet: pq: invalid input syntax for type uuid: \"string\""}
+{"time":"2024-09-06T17:33:58.686427974+05:00","level":"INFO","msg":"Shutting down, waiting for consumers to finish"}
+{"time":"2024-09-06T17:33:58.686531915+05:00","level":"INFO","msg":"Context done, stopping consumer","consumer":"PostTweet"}
+{"time":"2024-09-06T17:33:58.686538079+05:00","level":"INFO","msg":"Context done, stopping consumer","consumer":"PostComment"}
+{"time":"2024-09-06T17:33:58.686571068+05:00","level":"INFO","msg":"Context done, stopping consumer","consumer":"AddLike"}
+{"time":"2024-09-06T17:33:58.686542124+05:00","level":"INFO","msg":"Context done, stopping consumer","consumer":"UpdateTweet"}
+{"time":"2024-09-06T17:33:58.686707197+05:00","level":"INFO","msg":"Context done, stopping consumer","consumer":"UpdateComment"}
+{"time":"2024-09-06T17:33:58.686764793+05:00","level":"INFO","msg":"All consumers have stopped"}
+{"time":"2024-09-07T19:56:57.895281006+05:00","level":"INFO","msg":"Shutting down, waiting for consumers to finish"}
+{"time":"2024-09-07T19:56:57.897163862+05:00","level":"INFO","msg":"Context done, stopping consumer","consumer":"UpdateComment"}
+{"time":"2024-09-07T19:56:57.897176206+05:00","level":"INFO","msg":"Context done, stopping consumer","consumer":"AddLike"}
+{"time":"2024-09-07T19:56:57.897201539+05:00","level":"INFO","msg":"Context done, stopping consumer","consumer":"PostTweet"}
+{"time":"2024-09-07T19:56:57.897213394+05:00","level":"INFO","msg":"Context done, stopping consumer","consumer":"PostComment"}
+{"time":"2024-09-07T19:56:57.897238545+05:00","level":"INFO","msg":"Context done, stopping consumer","consumer":"UpdateTweet"}
+{"time":"2024-09-07T19:56:57.897281544+05:00","level":"INFO","msg":"All consumers have stopped"}
+{"time":"2024-09-07T21:18:37.67990098+05:00","level":"INFO","msg":"Shutting down, waiting for consumers to finish"}
+{"time":"2024-09-07T21:18:37.681753339+05:00","level":"INFO","msg":"Context done, stopping consumer","consumer":"PostComment"}
+{"time":"2024-09-07T21:18:37.681753195+05:00","level":"INFO","msg":"Context done, stopping consumer","consumer":"UpdateTweet"}
+{"time":"2024-09-07T21:18:37.68180997+05:00","level":"INFO","msg":"Context done, stopping consumer","consumer":"UpdateComment"}
+{"time":"2024-09-07T21:18:37.681840048+05:00","level":"INFO","msg":"Context done, stopping consumer","consumer":"AddLike"}
+{"time":"2024-09-07T21:18:37.681996727+05:00","level":"INFO","msg":"Context done, stopping consumer","consumer":"PostTweet"}
+{"time":"2024-09-07T21:18:37.682151538+05:00","level":"INFO","msg":"All consumers have stopped"}
+{"time":"2024-09-07T21:34:57.075146581+05:00","level":"INFO","msg":"Shutting down, waiting for consumers to finish"}
+{"time":"2024-09-07T21:34:57.110734182+05:00","level":"INFO","msg":"Context done, stopping consumer","consumer":"AddLike"}
+{"time":"2024-09-07T21:34:57.110791381+05:00","level":"INFO","msg":"Context done, stopping consumer","consumer":"PostTweet"}
+{"time":"2024-09-07T21:34:57.110922748+05:00","level":"INFO","msg":"Context done, stopping consumer","consumer":"PostComment"}
+{"time":"2024-09-07T21:34:57.110913337+05:00","level":"INFO","msg":"Context done, stopping consumer","consumer":"UpdateComment"}
+{"time":"2024-09-07T21:34:57.111522735+05:00","level":"INFO","msg":"Context done, stopping consumer","consumer":"UpdateTweet"}
+{"time":"2024-09-07T21:34:57.111692925+05:00","level":"INFO","msg":"All consumers have stopped"}
+{"time":"2024-09-07T21:36:03.241902031+05:00","level":"INFO","msg":"Shutting down, waiting for consumers to finish"}
+{"time":"2024-09-07T21:36:03.242100666+05:00","level":"INFO","msg":"Context done, stopping consumer","consumer":"PostComment"}
+{"time":"2024-09-07T21:36:03.242126614+05:00","level":"INFO","msg":"Context done, stopping consumer","consumer":"UpdateTweet"}
+{"time":"2024-09-07T21:36:03.242178949+05:00","level":"INFO","msg":"Context done, stopping consumer","consumer":"PostTweet"}
+{"time":"2024-09-07T21:36:03.242136573+05:00","level":"INFO","msg":"Context done, stopping consumer","consumer":"AddLike"}
+{"time":"2024-09-07T21:36:03.242315909+05:00","level":"INFO","msg":"Context done, stopping consumer","consumer":"UpdateComment"}
+{"time":"2024-09-07T21:36:03.242384942+05:00","level":"INFO","msg":"All consumers have stopped"}
+{"time":"2024-09-07T21:40:15.599980804+05:00","level":"ERROR","msg":"failed to get tweets","!BADKEY":"pq: invalid input syntax for type uuid: \"string\""}
+{"time":"2024-09-07T21:42:52.000700823+05:00","level":"INFO","msg":"Shutting down, waiting for consumers to finish"}
+{"time":"2024-09-07T21:42:52.000864325+05:00","level":"INFO","msg":"Context done, stopping consumer","consumer":"AddLike"}
+{"time":"2024-09-07T21:42:52.000914317+05:00","level":"INFO","msg":"Context done, stopping consumer","consumer":"PostTweet"}
+{"time":"2024-09-07T21:42:52.000935132+05:00","level":"INFO","msg":"Context done, stopping consumer","consumer":"UpdateComment"}
+{"time":"2024-09-07T21:42:52.000933455+05:00","level":"INFO","msg":"Context done, stopping consumer","consumer":"PostComment"}
+{"time":"2024-09-07T21:42:52.000895156+05:00","level":"INFO","msg":"Context done, stopping consumer","consumer":"UpdateTweet"}
+{"time":"2024-09-07T21:42:52.001084965+05:00","level":"INFO","msg":"All consumers have stopped"}

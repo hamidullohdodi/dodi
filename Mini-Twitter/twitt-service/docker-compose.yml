@@ -1,0 +1,40 @@
+version: '3.9'
+
+services:
+  postgres2:
+    image: postgres:16.3
+    container_name: postgres2
+    environment:
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=123321
+      - POSTGRES_DB=tweeter
+    networks:
+      - tweetNet
+    ports:
+      - 5434:5432
+    volumes:
+      - postgres_data:/postgres/data
+    healthcheck:
+      test: [ "CMD-SHELL", "pg_isready -d postgres" ]
+      interval: 30s
+      timeout: 10s
+      retries: 5
+
+  tweet:
+    container_name: tweet-tweet
+    build: .
+    depends_on:
+      postgres2:
+        condition: service_healthy
+    ports:
+      - 8088:888
+    networks:
+      - tweetNet
+
+volumes:
+  postgres_data:
+
+networks:
+  tweetNet:
+    name: tweetNet
+    driver: bridge

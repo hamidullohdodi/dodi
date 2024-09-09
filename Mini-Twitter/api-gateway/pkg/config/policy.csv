@@ -1,0 +1,72 @@
+p,user, /user/*,POST
+p,user, /user/*,GET
+p,user, /user/*,PUT
+p,user, /user/*,PUT
+p,user, /user/*,PUT
+p,user, /user/*,GET
+p,user, /user/*,GET
+p,user, /user/*,GET
+p,user, /user/*,DELETE
+p,user, /user/*,POST
+p,user, /user/*,DELETE
+p,user, /user/*,GET
+p,user, /user/*,GET
+p,user, /user/*,GET
+p,user,/tweet/*,POST
+p,user,/tweet/*,PUT
+p,user,/tweet/*,PUT
+p,user,/tweet/*,GET
+p,user,/tweet/*,GET
+p,user,/tweet/*,GET
+p,user,/tweet/*,GET
+p,user,/tweet/*,GET
+p,user,/comment/*,PUT
+p,user,/comment/*,POST
+p,user,/comment/*,DELETE
+p,user,/comment/*,GET
+p,user,/comment/*,GET
+p,user,/comment/*,GET
+p,user,/comment/*,POST
+p,user,/comment/*,DELETE
+p,user,/like/*,POST
+p,user,/like/*,DELETE
+p,user,/like/*,GET
+p,user,/like/*,GET
+p,user,/like/*,GET
+p,user, /user/*,POST
+p,admin, /user/*,GET
+p,admin, /user/*,PUT
+p,admin, /user/*,PUT
+p,admin, /user/*,PUT
+p,admin, /user/*,GET
+p,admin, /user/*,GET
+p,admin, /user/*,GET
+p,admin, /user/*,DELETE
+p,user, /user/*,POST
+p,admin, /user/*,DELETE
+p,admin, /user/*,GET
+p,admin, /user/*,GET
+p,admin, /user/*,GET
+p,user,/user/*,POST
+p,admin,/user/*,PUT
+p,admin,/tweet/*,POST
+p,admin,/tweet/*,PUT
+p,admin,/tweet/*,PUT
+p,admin,/tweet/*,GET
+p,admin,/tweet/*,GET
+p,admin,/tweet/*,GET
+p,admin,/tweet/*,GET
+p,admin,/tweet/*,GET
+p,admin,/comment/*,PUT
+p,user,/comment/*,POST
+p,admin,/comment/*,DELETE
+p,admin,/comment/*,GET
+p,admin,/comment/*,GET
+p,admin,/comment/*,GET
+p,user,/comment/*,POST
+p,admin,/comment/*,DELETE
+p,user,/like/*,POST
+p,admin,/like/*,DELETE
+p,admin,/like/*,GET
+p,admin,/like/*,GET
+p,admin,/like/*,GET

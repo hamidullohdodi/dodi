@@ -1,0 +1,193 @@
+syntax = "proto3";
+
+package tweet;
+
+option go_package = "genproto/tweet";
+
+service TweetService {
+  // tweets
+  rpc PostTweet(Tweet) returns (TweetResponse);
+  rpc UpdateTweet(UpdateATweet) returns (TweetResponse);
+  rpc AddImageToTweet(Url) returns (Message);
+  rpc UserTweets(UserId) returns (Tweets);
+  rpc GetTweet(TweetId) returns (TweetResponse);
+  rpc GetAllTweets(TweetFilter) returns (Tweets);
+  rpc RecommendTweets(UserId) returns (Tweets);
+  rpc GetNewTweets(UserId) returns (Tweets);
+
+  //subscribe
+//  rpc Follow(FollowReq) returns (FollowRes);
+//  rpc Unfollow(FollowReq) returns (DFollowRes);
+//  rpc GetUserFollowers(UserId) returns (Count);
+//  rpc GetUserFollows(UserId) returns (Count);
+//  rpc MostPopularUser(Void) returns (User);
+
+  // likes
+  rpc AddLike(LikeReq) returns (LikeRes);
+  rpc DeleteLIke(LikeReq) returns (DLikeRes);
+  rpc GetUserLikes(UserId) returns (TweetTitles);
+  rpc GetCountTweetLikes(TweetId) returns (Count);
+  rpc MostLikedTweets(Void) returns (Tweet);
+
+  // comments
+  rpc PostComment(Comment) returns (CommentRes);
+  rpc UpdateComment(UpdateAComment) returns (CommentRes);
+  rpc DeleteComment(CommentId) returns (Message);
+  rpc GetComment(CommentId) returns (Comment);
+  rpc GetAllComments(CommentFilter) returns (Comments);
+  rpc GetUserComments(UserId) returns (Comments);
+  rpc AddLikeToComment(UserId) returns (Message);
+  rpc DeleteLikeComment(UserId) returns (Message);
+}
+
+// tweet -------------------------------------------------
+message Tweet {
+  string userId = 1;
+  string hashtag = 2;
+  string title = 3;
+  string content = 4;
+  string imageUrl = 5;
+}
+
+message TweetResponse {
+  string id = 1;
+  string userId = 2;
+  string hashtag = 3;
+  string title = 4;
+  string content = 5;
+  string imageUrl = 6;
+  string createdAt = 7;
+  string updatedAt = 8;
+}
+
+message UpdateATweet {
+  string hashtag = 1;
+  string title = 2;
+  string content = 3;
+}
+
+message Url {
+  string url = 1;
+}
+
+message Message {
+  string message = 1;
+}
+
+message UserId {
+  string id = 1;
+}
+
+message Tweets {
+  repeated TweetResponse tweets = 1;
+  int64 limit = 2;
+  int64 offset = 3;
+}
+
+message TweetId {
+  string id = 1;
+}
+
+message TweetFilter {
+  int64 limit = 1;
+  int64 offset = 2;
+  string hashtag = 3;
+  string title = 4;
+}
+
+// Follows ---------------------------------------------------------------
+
+message FollowReq {
+  string followerId = 1;
+  string followingId = 2;
+}
+
+message FollowRes {
+  string followerId = 1;
+  string followingId = 2;
+  string followedAt = 3;
+}
+
+message DFollowRes {
+  string followerId = 1;
+  string followingId = 2;
+  string unfollowedAt = 3;
+}
+
+message Count {
+  string description = 1;
+  int64 count = 2;
+}
+
+message Void {}
+
+message User {
+  string user_id = 1;
+  string first_name = 2;
+  string username = 3;
+  string bio = 4;
+  string profile_image = 5;
+  int32 followers_count = 6;
+  int32 following_count = 7;
+  int32 posts_count = 8;
+  string created_at = 9;
+  string updated_at = 10;
+}
+
+// likes -------------------------------------------------------------------
+
+message LikeReq {
+  string userId = 1;
+  string tweetId = 2;
+}
+
+message LikeRes {
+  string userId = 1;
+  string tweetId = 2;
+  string LikedAt = 3;
+}
+
+message DLikeRes {
+  string userId = 1;
+  string tweetId = 2;
+  string UnlikedAt = 3;
+}
+
+message TweetTitles {
+  repeated string tweetTitles = 1;
+}
+
+// comments ---------------------------------------------------------
+
+message Comment {
+  string userId = 1;
+  string tweetId = 2;
+  string context = 3;
+}
+
+message CommentRes {
+  string id = 1;
+  string userId = 2;
+  string tweetId = 3;
+  string context = 4;
+  int64 likeCount = 5;
+  string createAt = 6;
+  string updatedAt = 7;
+}
+
+message UpdateAComment {
+  string content = 1;
+}
+
+message CommentId {
+  string id = 1;
+}
+
+message CommentFilter {
+  string userId = 1;
+  string tweetId = 2;
+}
+
+message Comments {
+  repeated Comment comments = 1;
+}

@@ -1,0 +1,319 @@
+time=2024-08-31T15:35:38.345+05:00 level=ERROR msg="Failed to create casbin enforcer: %s" !BADKEY="open /home/xamidullayev/github/Mini-Twitter/api-gateway/config/model.conf: no such file or directory"
+time=2024-08-31T15:37:04.175+05:00 level=ERROR msg="Error occurred while creating user" !BADKEY="failed to exit idle mode: dns resolver: missing address"
+time=2024-08-31T15:42:18.784+05:00 level=ERROR msg="Error occurred while following" !BADKEY="failed to exit idle mode: dns resolver: missing address"
+time=2024-08-31T15:42:22.269+05:00 level=ERROR msg="Error occurred while following" !BADKEY="failed to exit idle mode: dns resolver: missing address"
+time=2024-08-31T15:47:57.370+05:00 level=ERROR msg="Error occurred while posting tweet" !BADKEY="failed to exit idle mode: dns resolver: missing address"
+time=2024-08-31T15:50:23.085+05:00 level=ERROR msg="Error occurred while posting tweet" !BADKEY="failed to exit idle mode: dns resolver: missing address"
+time=2024-08-31T15:52:44.305+05:00 level=ERROR msg="Error occurred while posting tweet" !BADKEY="failed to exit idle mode: dns resolver: missing address"
+time=2024-08-31T15:52:47.197+05:00 level=ERROR msg="Error occurred while posting tweet" !BADKEY="failed to exit idle mode: dns resolver: missing address"
+time=2024-08-31T15:53:06.022+05:00 level=ERROR msg="Error occurred while posting tweet" !BADKEY="failed to exit idle mode: dns resolver: missing address"
+time=2024-08-31T15:54:59.026+05:00 level=ERROR msg="Error occurred while posting tweet" !BADKEY="failed to exit idle mode: dns resolver: missing address"
+time=2024-08-31T15:55:05.245+05:00 level=ERROR msg="Error occurred while posting tweet" !BADKEY="failed to exit idle mode: dns resolver: missing address"
+time=2024-08-31T15:56:24.197+05:00 level=ERROR msg="Error occurred while posting tweet" !BADKEY="failed to exit idle mode: dns resolver: missing address"
+time=2024-08-31T15:57:53.352+05:00 level=ERROR msg="Error occurred while posting tweet" !BADKEY="failed to exit idle mode: dns resolver: missing address"
+time=2024-08-31T15:59:39.973+05:00 level=ERROR msg="Error occurred while posting tweet" !BADKEY="failed to exit idle mode: dns resolver: missing address"
+time=2024-08-31T15:59:45.482+05:00 level=ERROR msg="Error occurred while posting tweet" !BADKEY="failed to exit idle mode: dns resolver: missing address"
+time=2024-08-31T16:00:13.668+05:00 level=ERROR msg="Error occurred while posting tweet" !BADKEY="failed to exit idle mode: dns resolver: missing address"
+time=2024-08-31T16:00:14.558+05:00 level=ERROR msg="Error occurred while posting tweet" !BADKEY="failed to exit idle mode: dns resolver: missing address"
+time=2024-08-31T16:00:14.704+05:00 level=ERROR msg="Error occurred while posting tweet" !BADKEY="failed to exit idle mode: dns resolver: missing address"
+time=2024-08-31T16:00:14.846+05:00 level=ERROR msg="Error occurred while posting tweet" !BADKEY="failed to exit idle mode: dns resolver: missing address"
+time=2024-08-31T16:00:14.980+05:00 level=ERROR msg="Error occurred while posting tweet" !BADKEY="failed to exit idle mode: dns resolver: missing address"
+time=2024-08-31T16:00:15.161+05:00 level=ERROR msg="Error occurred while posting tweet" !BADKEY="failed to exit idle mode: dns resolver: missing address"
+time=2024-08-31T16:06:24.377+05:00 level=ERROR msg="Error occurred while posting tweet" !BADKEY="failed to exit idle mode: dns resolver: missing address"
+time=2024-08-31T16:08:13.538+05:00 level=ERROR msg="Error occurred while posting tweet" !BADKEY="failed to exit idle mode: dns resolver: missing address"
+time=2024-08-31T16:08:14.994+05:00 level=ERROR msg="Error occurred while posting tweet" !BADKEY="failed to exit idle mode: dns resolver: missing address"
+time=2024-08-31T16:08:15.133+05:00 level=ERROR msg="Error occurred while posting tweet" !BADKEY="failed to exit idle mode: dns resolver: missing address"
+time=2024-08-31T16:08:15.328+05:00 level=ERROR msg="Error occurred while posting tweet" !BADKEY="failed to exit idle mode: dns resolver: missing address"
+time=2024-08-31T16:08:15.465+05:00 level=ERROR msg="Error occurred while posting tweet" !BADKEY="failed to exit idle mode: dns resolver: missing address"
+time=2024-08-31T16:08:15.653+05:00 level=ERROR msg="Error occurred while posting tweet" !BADKEY="failed to exit idle mode: dns resolver: missing address"
+time=2024-08-31T16:08:15.830+05:00 level=ERROR msg="Error occurred while posting tweet" !BADKEY="failed to exit idle mode: dns resolver: missing address"
+time=2024-08-31T16:08:20.606+05:00 level=ERROR msg="Error occurred while posting tweet" !BADKEY="failed to exit idle mode: dns resolver: missing address"
+time=2024-08-31T16:09:06.196+05:00 level=ERROR msg="Error occurred while posting tweet" !BADKEY="failed to exit idle mode: dns resolver: missing address"
+time=2024-08-31T16:09:14.998+05:00 level=ERROR msg="Error occurred while posting tweet" !BADKEY="failed to exit idle mode: dns resolver: missing address"
+time=2024-08-31T16:14:03.757+05:00 level=ERROR msg="Error occurred while posting tweet" !BADKEY="failed to exit idle mode: dns resolver: missing address"
+time=2024-08-31T16:14:04.858+05:00 level=ERROR msg="Error occurred while posting tweet" !BADKEY="failed to exit idle mode: dns resolver: missing address"
+time=2024-08-31T16:14:10.418+05:00 level=ERROR msg="Error occurred while posting tweet" !BADKEY="failed to exit idle mode: dns resolver: missing address"
+time=2024-08-31T16:18:19.976+05:00 level=INFO msg="Publishing PostTweet message"
+time=2024-08-31T16:18:19.977+05:00 level=INFO msg="Message published" queue=PostTweet
+time=2024-08-31T17:12:35.368+05:00 level=ERROR msg="Failed to create casbin enforcer: %s" !BADKEY="open /home/xamidullayev/github/Mini-Twitter/api-gateway/config/model.conf: no such file or directory"
+time=2024-08-31T17:29:15.119+05:00 level=ERROR msg="Failed to create casbin enforcer: %s" !BADKEY="open /home/xamidullayev/github/Mini-Twitter/api-gateway/config/model.conf: no such file or directory"
+time=2024-09-01T12:48:21.573+05:00 level=ERROR msg="Failed to create casbin enforcer: %s" !BADKEY="open /home/fazliddin/go/go11/Fazliddin/projects/Mini-Twitter/api-gateway/config/model.conf: no such file or directory"
+time=2024-09-01T12:51:26.552+05:00 level=ERROR msg="Failed to create casbin enforcer: %s" !BADKEY="open /home/fazliddin/go/go11/Fazliddin/projects/Mini-Twitter/api-gateway/config/model.conf: no such file or directory"
+time=2024-09-01T13:28:33.871+05:00 level=ERROR msg="Failed to create casbin enforcer: %s" !BADKEY="open /home/fazliddin/go/go11/Fazliddin/projects/Mini-Twitter/api-gateway/config/model.conf: no such file or directory"
+time=2024-09-04T18:06:52.694+05:00 level=ERROR msg="Failed to create casbin enforcer: %s" !BADKEY="open /home/fazliddin/go/go11/Fazliddin/projects/Mini-Twitter/api-gateway/config/model.conf: no such file or directory"
+time=2024-09-04T18:10:29.425+05:00 level=ERROR msg="Failed to create casbin enforcer: %s" !BADKEY="open /home/fazliddin/go/go11/Fazliddin/projects/Mini-Twitter/api-gateway/config/model.conf: no such file or directory"
+time=2024-09-04T18:12:45.352+05:00 level=ERROR msg="Failed to create casbin enforcer: %s" !BADKEY="open /home/fazliddin/go/go11/Fazliddin/projects/Mini-Twitter/api-gateway/config/model.conf: no such file or directory"
+time=2024-09-04T18:15:44.734+05:00 level=ERROR msg="Failed to create casbin enforcer: %s" !BADKEY="open /home/fazliddin/go/go11/Fazliddin/projects/Mini-Twitter/api-gateway/config/model.conf: no such file or directory"
+time=2024-09-04T18:16:27.509+05:00 level=INFO msg="Publishing PostTweet message"
+time=2024-09-04T18:16:27.509+05:00 level=INFO msg="Message published" queue=PostTweet
+time=2024-09-04T18:19:29.566+05:00 level=ERROR msg="Failed to create casbin enforcer: %s" !BADKEY="open /home/fazliddin/go/go11/Fazliddin/projects/Mini-Twitter/api-gateway/config/model.conf: no such file or directory"
+time=2024-09-04T18:19:34.985+05:00 level=INFO msg="Publishing PostTweet message"
+time=2024-09-04T18:19:34.985+05:00 level=INFO msg="Message published" queue=PostTweet
+time=2024-09-04T18:21:11.198+05:00 level=INFO msg="Publishing PostTweet message"
+time=2024-09-04T18:21:11.198+05:00 level=INFO msg="Message published" queue=PostTweet
+time=2024-09-04T18:22:13.097+05:00 level=ERROR msg="Failed to create casbin enforcer: %s" !BADKEY="open /home/fazliddin/go/go11/Fazliddin/projects/Mini-Twitter/api-gateway/config/model.conf: no such file or directory"
+time=2024-09-04T18:22:15.209+05:00 level=INFO msg="Publishing PostTweet message"
+time=2024-09-04T18:22:15.209+05:00 level=INFO msg="Message published" queue=PostTweet
+time=2024-09-04T18:23:33.893+05:00 level=INFO msg="Publishing PostTweet message"
+time=2024-09-04T18:23:33.893+05:00 level=INFO msg="Message published" queue=PostTweet
+time=2024-09-04T18:23:36.464+05:00 level=INFO msg="Publishing PostTweet message"
+time=2024-09-04T18:23:36.464+05:00 level=INFO msg="Message published" queue=PostTweet
+time=2024-09-04T18:23:53.187+05:00 level=INFO msg="Publishing PostTweet message"
+time=2024-09-04T18:23:53.187+05:00 level=INFO msg="Message published" queue=PostTweet
+time=2024-09-04T18:23:55.457+05:00 level=INFO msg="Publishing PostTweet message"
+time=2024-09-04T18:23:55.457+05:00 level=INFO msg="Message published" queue=PostTweet
+time=2024-09-04T18:23:55.855+05:00 level=INFO msg="Publishing PostTweet message"
+time=2024-09-04T18:23:55.855+05:00 level=INFO msg="Message published" queue=PostTweet
+time=2024-09-04T18:28:38.955+05:00 level=INFO msg="Publishing PostTweet message"
+time=2024-09-04T18:28:38.955+05:00 level=INFO msg="Message published" queue=PostTweet
+time=2024-09-04T18:31:45.022+05:00 level=INFO msg="Publishing PostTweet message"
+time=2024-09-04T18:31:45.022+05:00 level=INFO msg="Message published" queue=PostTweet
+time=2024-09-04T18:31:48.258+05:00 level=INFO msg="Publishing PostTweet message"
+time=2024-09-04T18:31:48.258+05:00 level=INFO msg="Message published" queue=PostTweet
+time=2024-09-04T18:31:48.396+05:00 level=INFO msg="Publishing PostTweet message"
+time=2024-09-04T18:31:48.396+05:00 level=INFO msg="Message published" queue=PostTweet
+time=2024-09-04T18:33:52.591+05:00 level=INFO msg="Publishing PostTweet message"
+time=2024-09-04T18:33:52.591+05:00 level=INFO msg="Message published" queue=PostTweet
+time=2024-09-04T18:40:07.161+05:00 level=INFO msg="Publishing PostTweet message"
+time=2024-09-04T18:40:07.161+05:00 level=INFO msg="Message published" queue=PostTweet
+time=2024-09-04T18:40:46.993+05:00 level=INFO msg="Publishing PostTweet message"
+time=2024-09-04T18:40:46.993+05:00 level=INFO msg="Message published" queue=PostTweet
+time=2024-09-04T18:41:22.976+05:00 level=INFO msg="Publishing PostTweet message"
+time=2024-09-04T18:41:22.976+05:00 level=INFO msg="Message published" queue=PostTweet
+time=2024-09-04T18:41:35.416+05:00 level=INFO msg="Publishing PostTweet message"
+time=2024-09-04T18:41:35.416+05:00 level=INFO msg="Message published" queue=PostTweet
+time=2024-09-04T22:10:59.126+05:00 level=ERROR msg="Failed to create casbin enforcer: %s" !BADKEY="open /home/xamidullayev/github/Mini-Twitter/api-gateway/config/model.conf: no such file or directory"
+time=2024-09-04T22:31:47.856+05:00 level=ERROR msg="Failed to create casbin enforcer"
+time=2024-09-04T22:40:23.889+05:00 level=INFO msg="Publishing PostTweet message"
+time=2024-09-04T22:40:23.889+05:00 level=INFO msg="Message published successfully" queue=PostTweet
+time=2024-09-04T22:48:39.484+05:00 level=INFO msg="Publishing PostTweet message"
+time=2024-09-04T22:48:39.484+05:00 level=INFO msg="Message published successfully" queue=PostTweet
+time=2024-09-04T22:57:49.304+05:00 level=INFO msg="Publishing PostTweet message"
+time=2024-09-04T22:57:49.304+05:00 level=INFO msg="Message published successfully" queue=PostTweet
+time=2024-09-04T22:57:50.502+05:00 level=INFO msg="Publishing PostTweet message"
+time=2024-09-04T22:57:50.502+05:00 level=INFO msg="Message published successfully" queue=PostTweet
+time=2024-09-04T22:57:50.677+05:00 level=INFO msg="Publishing PostTweet message"
+time=2024-09-04T22:57:50.677+05:00 level=INFO msg="Message published successfully" queue=PostTweet
+time=2024-09-04T23:32:02.799+05:00 level=INFO msg="Publishing PostTweet message"
+time=2024-09-04T23:32:02.799+05:00 level=INFO msg="Message published successfully" queue=PostTweet
+time=2024-09-04T23:32:56.784+05:00 level=INFO msg="Publishing PostTweet message"
+time=2024-09-04T23:32:56.784+05:00 level=INFO msg="Message published successfully" queue=PostTweet
+time=2024-09-04T23:34:21.008+05:00 level=INFO msg="Publishing PostTweet message"
+time=2024-09-04T23:34:21.008+05:00 level=INFO msg="Message published successfully" queue=PostTweet
+time=2024-09-04T23:35:37.771+05:00 level=INFO msg="Publishing PostTweet message"
+time=2024-09-04T23:35:37.771+05:00 level=INFO msg="Message published successfully" queue=PostTweet
+time=2024-09-04T23:38:27.970+05:00 level=INFO msg="Publishing PostTweet message"
+time=2024-09-04T23:38:27.970+05:00 level=INFO msg="Message published successfully" queue=PostTweet
+time=2024-09-04T23:39:18.828+05:00 level=INFO msg="Publishing PostTweet message"
+time=2024-09-04T23:39:18.828+05:00 level=INFO msg="Message published successfully" queue=PostTweet
+time=2024-09-04T23:41:58.120+05:00 level=INFO msg="Publishing PostTweet message"
+time=2024-09-04T23:41:58.120+05:00 level=INFO msg="Message published successfully" queue=PostTweet
+time=2024-09-04T23:42:01.087+05:00 level=INFO msg="Publishing PostTweet message"
+time=2024-09-04T23:42:01.087+05:00 level=INFO msg="Message published successfully" queue=PostTweet
+time=2024-09-04T23:44:11.115+05:00 level=INFO msg="Publishing PostTweet message"
+time=2024-09-04T23:44:11.115+05:00 level=INFO msg="Message published successfully" queue=PostTweet
+time=2024-09-04T23:45:56.701+05:00 level=INFO msg="Publishing PostTweet message"
+time=2024-09-04T23:45:56.701+05:00 level=INFO msg="Message published successfully" queue=PostTweet
+time=2024-09-04T23:46:33.757+05:00 level=INFO msg="Publishing PostTweet message"
+time=2024-09-04T23:46:33.757+05:00 level=INFO msg="Message published successfully" queue=PostTweet
+time=2024-09-05T00:02:38.117+05:00 level=INFO msg="Publishing PostTweet message"
+time=2024-09-05T00:02:38.118+05:00 level=INFO msg="Message published successfully" queue=PostTweet
+time=2024-09-05T00:03:34.123+05:00 level=INFO msg="Publishing PostTweet message"
+time=2024-09-05T00:03:34.123+05:00 level=INFO msg="Message published successfully" queue=PostTweet
+time=2024-09-05T00:05:13.641+05:00 level=INFO msg="Publishing PostTweet message"
+time=2024-09-05T00:05:13.641+05:00 level=INFO msg="Message published successfully" queue=PostTweet
+time=2024-09-05T00:05:22.714+05:00 level=INFO msg="Publishing PostTweet message"
+time=2024-09-05T00:05:22.714+05:00 level=INFO msg="Message published successfully" queue=PostTweet
+time=2024-09-05T00:06:31.207+05:00 level=INFO msg="Publishing PostTweet message"
+time=2024-09-05T00:06:31.207+05:00 level=INFO msg="Message published successfully" queue=PostTweet
+time=2024-09-05T00:07:18.508+05:00 level=ERROR msg="Error occurred while getting tweet" !BADKEY="failed to exit idle mode: dns resolver: missing address"
+time=2024-09-05T00:08:43.897+05:00 level=INFO msg="Publishing AddLike message"
+time=2024-09-05T00:08:43.897+05:00 level=INFO msg="Message published successfully" queue=AddLike
+time=2024-09-05T00:20:56.650+05:00 level=ERROR msg="Error occurred while extracting claims" !BADKEY="failed to parse token: Token is expired"
+time=2024-09-05T00:22:24.729+05:00 level=INFO msg="Publishing AddLike message"
+time=2024-09-05T00:22:24.729+05:00 level=INFO msg="Message published successfully" queue=AddLike
+time=2024-09-05T00:28:05.850+05:00 level=INFO msg="Publishing AddLike message"
+time=2024-09-05T00:28:05.850+05:00 level=INFO msg="Message published successfully" queue=AddLike
+time=2024-09-05T00:32:33.312+05:00 level=ERROR msg="Error occurred while extracting claims" !BADKEY="failed to parse token: Token is expired"
+time=2024-09-05T00:33:45.119+05:00 level=INFO msg="Publishing AddLike message"
+time=2024-09-05T00:33:45.119+05:00 level=INFO msg="Message published successfully" queue=AddLike
+time=2024-09-05T00:35:49.803+05:00 level=ERROR msg="Error occurred while extracting claims" !BADKEY="failed to parse token: signature is invalid"
+time=2024-09-05T00:36:11.930+05:00 level=ERROR msg="Error occurred while extracting claims" !BADKEY="failed to parse token: signature is invalid"
+time=2024-09-05T00:37:51.024+05:00 level=ERROR msg="Error occurred while extracting claims" !BADKEY="failed to parse token: signature is invalid"
+time=2024-09-05T00:39:56.868+05:00 level=INFO msg="Publishing AddLike message"
+time=2024-09-05T00:39:56.868+05:00 level=INFO msg="Message published successfully" queue=AddLike
+time=2024-09-05T00:42:42.020+05:00 level=INFO msg="Publishing AddLike message"
+time=2024-09-05T00:42:42.020+05:00 level=INFO msg="Message published successfully" queue=AddLike
+time=2024-09-05T00:46:31.158+05:00 level=INFO msg="Publishing AddLike message"
+time=2024-09-05T00:46:31.158+05:00 level=INFO msg="Message published successfully" queue=AddLike
+time=2024-09-05T00:47:07.335+05:00 level=INFO msg="Publishing AddLike message"
+time=2024-09-05T00:47:07.335+05:00 level=INFO msg="Message published successfully" queue=AddLike
+time=2024-09-05T00:52:23.280+05:00 level=ERROR msg="Error occurred while extracting claims" !BADKEY="failed to parse token: Token is expired"
+time=2024-09-05T00:53:43.653+05:00 level=INFO msg="Publishing AddLike message"
+time=2024-09-05T00:53:43.654+05:00 level=INFO msg="Message published successfully" queue=AddLike
+time=2024-09-05T00:54:04.089+05:00 level=INFO msg="Publishing PostTweet message"
+time=2024-09-05T00:54:04.089+05:00 level=INFO msg="Message published successfully" queue=PostTweet
+time=2024-09-05T00:55:17.839+05:00 level=INFO msg="Publishing AddLike message"
+time=2024-09-05T00:55:17.839+05:00 level=INFO msg="Message published successfully" queue=AddLike
+time=2024-09-05T00:57:35.492+05:00 level=INFO msg="Publishing PostTweet message"
+time=2024-09-05T00:57:35.492+05:00 level=INFO msg="Message published successfully" queue=PostTweet
+time=2024-09-05T00:57:54.459+05:00 level=INFO msg="Publishing AddLike message"
+time=2024-09-05T00:57:54.459+05:00 level=INFO msg="Message published successfully" queue=AddLike
+time=2024-09-05T01:01:57.460+05:00 level=INFO msg="Publishing AddLike message"
+time=2024-09-05T01:01:57.460+05:00 level=INFO msg="Message published successfully" queue=AddLike
+time=2024-09-05T01:03:50.265+05:00 level=INFO msg="Publishing AddLike message"
+time=2024-09-05T01:03:50.265+05:00 level=INFO msg="Message published successfully" queue=AddLike
+time=2024-09-05T01:08:36.550+05:00 level=INFO msg="Publishing AddLike message"
+time=2024-09-05T01:08:36.550+05:00 level=INFO msg="Message published successfully" queue=AddLike
+time=2024-09-05T01:09:28.909+05:00 level=INFO msg="Publishing AddLike message"
+time=2024-09-05T01:09:28.909+05:00 level=INFO msg="Message published successfully" queue=AddLike
+time=2024-09-05T01:10:10.631+05:00 level=INFO msg="Publishing AddLike message"
+time=2024-09-05T01:10:10.631+05:00 level=INFO msg="Message published successfully" queue=AddLike
+time=2024-09-05T01:15:34.832+05:00 level=INFO msg="Publishing AddLike message"
+time=2024-09-05T01:15:34.832+05:00 level=INFO msg="Message published successfully" queue=AddLike
+time=2024-09-05T01:16:21.201+05:00 level=INFO msg="Publishing AddLike message"
+time=2024-09-05T01:16:21.201+05:00 level=INFO msg="Message published successfully" queue=AddLike
+time=2024-09-05T01:16:53.247+05:00 level=INFO msg="Publishing AddLike message"
+time=2024-09-05T01:16:53.248+05:00 level=INFO msg="Message published successfully" queue=AddLike
+time=2024-09-05T01:17:00.043+05:00 level=INFO msg="Publishing AddLike message"
+time=2024-09-05T01:17:00.043+05:00 level=INFO msg="Message published successfully" queue=AddLike
+time=2024-09-05T01:19:23.532+05:00 level=INFO msg="Publishing AddLike message"
+time=2024-09-05T01:19:23.533+05:00 level=INFO msg="Message published successfully" queue=AddLike
+time=2024-09-05T01:20:58.501+05:00 level=INFO msg="Publishing AddLike message"
+time=2024-09-05T01:20:58.501+05:00 level=INFO msg="Message published successfully" queue=AddLike
+time=2024-09-05T01:24:46.763+05:00 level=INFO msg="Publishing PostComment message"
+time=2024-09-05T01:24:46.764+05:00 level=INFO msg="Message published successfully" queue=PostComment
+time=2024-09-05T01:25:15.900+05:00 level=INFO msg="Publishing PostComment message"
+time=2024-09-05T01:25:15.900+05:00 level=INFO msg="Message published successfully" queue=PostComment
+time=2024-09-05T01:26:24.715+05:00 level=INFO msg="Publishing PostComment message"
+time=2024-09-05T01:26:24.715+05:00 level=INFO msg="Message published successfully" queue=PostComment
+time=2024-09-05T01:26:30.368+05:00 level=INFO msg="Publishing AddLike message"
+time=2024-09-05T01:26:30.368+05:00 level=INFO msg="Message published successfully" queue=AddLike
+time=2024-09-05T01:26:42.297+05:00 level=INFO msg="Publishing AddLike message"
+time=2024-09-05T01:26:42.297+05:00 level=INFO msg="Message published successfully" queue=AddLike
+time=2024-09-05T01:27:49.222+05:00 level=INFO msg="Publishing AddLike message"
+time=2024-09-05T01:27:49.222+05:00 level=INFO msg="Message published successfully" queue=AddLike
+time=2024-09-05T01:31:38.174+05:00 level=ERROR msg="Error occurred while extracting claims" !BADKEY="failed to parse token: Token is expired"
+time=2024-09-05T01:35:34.888+05:00 level=ERROR msg="Error occurred while extracting claims" !BADKEY="failed to parse token: Token is expired"
+time=2024-09-05T01:36:26.386+05:00 level=INFO msg="Publishing AddLike message"
+time=2024-09-05T01:36:26.386+05:00 level=INFO msg="Message published successfully" queue=AddLike
+time=2024-09-05T01:36:42.412+05:00 level=INFO msg="Publishing AddLike message"
+time=2024-09-05T01:36:42.412+05:00 level=INFO msg="Message published successfully" queue=AddLike
+time=2024-09-05T01:37:50.391+05:00 level=INFO msg="Publishing PostTweet message"
+time=2024-09-05T01:37:50.392+05:00 level=INFO msg="Message published successfully" queue=PostTweet
+time=2024-09-05T01:40:49.913+05:00 level=INFO msg="Publishing UpdateTweet message"
+time=2024-09-05T01:40:49.913+05:00 level=INFO msg="Message published successfully" queue=UpdateTweet
+time=2024-09-05T01:40:59.875+05:00 level=INFO msg="Publishing UpdateTweet message"
+time=2024-09-05T01:40:59.875+05:00 level=INFO msg="Message published successfully" queue=UpdateTweet
+time=2024-09-05T01:41:28.110+05:00 level=INFO msg="Publishing UpdateTweet message"
+time=2024-09-05T01:41:28.110+05:00 level=INFO msg="Message published successfully" queue=UpdateTweet
+time=2024-09-05T01:42:40.683+05:00 level=INFO msg="Publishing PostComment message"
+time=2024-09-05T01:42:40.683+05:00 level=INFO msg="Message published successfully" queue=PostComment
+time=2024-09-05T01:43:49.762+05:00 level=INFO msg="Publishing UpdateComment message"
+time=2024-09-05T01:43:49.762+05:00 level=INFO msg="Message published successfully" queue=UpdateComment
+time=2024-09-05T01:44:08.511+05:00 level=INFO msg="Publishing UpdateComment message"
+time=2024-09-05T01:44:08.511+05:00 level=INFO msg="Message published successfully" queue=UpdateComment
+time=2024-09-05T01:44:33.605+05:00 level=INFO msg="Publishing UpdateComment message"
+time=2024-09-05T01:44:33.605+05:00 level=INFO msg="Message published successfully" queue=UpdateComment
+time=2024-09-05T01:45:06.222+05:00 level=INFO msg="Publishing UpdateComment message"
+time=2024-09-05T01:45:06.222+05:00 level=INFO msg="Message published successfully" queue=UpdateComment
+time=2024-09-05T01:49:50.471+05:00 level=ERROR msg="Error occurred while extracting claims" !BADKEY="failed to parse token: Token is expired"
+time=2024-09-05T01:50:28.914+05:00 level=ERROR msg="Error occurred while getting comments" !BADKEY="failed to exit idle mode: dns resolver: missing address"
+time=2024-09-05T01:50:50.109+05:00 level=ERROR msg="Error occurred while getting comments" !BADKEY="failed to exit idle mode: dns resolver: missing address"
+time=2024-09-05T01:51:09.591+05:00 level=ERROR msg="Error occurred while getting comments" !BADKEY="failed to exit idle mode: dns resolver: missing address"
+time=2024-09-05T01:53:15.029+05:00 level=ERROR msg="Error occurred while getting comments" !BADKEY="failed to exit idle mode: dns resolver: missing address"
+time=2024-09-05T01:54:13.738+05:00 level=ERROR msg="Error occurred while deleting comment" !BADKEY="failed to exit idle mode: dns resolver: missing address"
+time=2024-09-05T16:28:52.976+05:00 level=ERROR msg="Error occurred while extracting claims" !BADKEY="failed to parse token: token contains an invalid number of segments"
+time=2024-09-05T16:29:11.093+05:00 level=INFO msg="Publishing PostComment message"
+time=2024-09-05T16:29:11.093+05:00 level=INFO msg="Message published successfully" queue=PostComment
+time=2024-09-05T16:30:30.382+05:00 level=ERROR msg="Error occurred while deleting comment" !BADKEY="failed to exit idle mode: dns resolver: missing address"
+time=2024-09-05T16:32:53.829+05:00 level=ERROR msg="Error occurred while deleting comment" !BADKEY="rpc error: code = Unknown desc = pq: password authentication failed for user \"postgres\""
+time=2024-09-05T16:40:00.441+05:00 level=ERROR msg="Error occurred while extracting claims" !BADKEY="failed to parse token: Token is expired"
+time=2024-09-05T16:40:25.964+05:00 level=ERROR msg="Error occurred while extracting claims" !BADKEY="failed to parse token: Token is expired"
+time=2024-09-05T16:40:56.979+05:00 level=INFO msg="Publishing PostComment message"
+time=2024-09-05T16:40:56.979+05:00 level=INFO msg="Message published successfully" queue=PostComment
+time=2024-09-05T16:47:33.615+05:00 level=INFO msg="Publishing PostComment message"
+time=2024-09-05T16:47:33.615+05:00 level=INFO msg="Message published successfully" queue=PostComment
+time=2024-09-05T16:49:40.431+05:00 level=INFO msg="Publishing PostComment message"
+time=2024-09-05T16:49:40.431+05:00 level=INFO msg="Message published successfully" queue=PostComment
+time=2024-09-05T16:50:08.971+05:00 level=INFO msg="Publishing PostComment message"
+time=2024-09-05T16:50:08.971+05:00 level=INFO msg="Message published successfully" queue=PostComment
+time=2024-09-05T16:53:07.359+05:00 level=INFO msg="Publishing PostComment message"
+time=2024-09-05T16:53:07.360+05:00 level=INFO msg="Message published successfully" queue=PostComment
+time=2024-09-05T16:53:59.043+05:00 level=INFO msg="Publishing PostComment message"
+time=2024-09-05T16:53:59.043+05:00 level=INFO msg="Message published successfully" queue=PostComment
+time=2024-09-05T16:55:06.004+05:00 level=INFO msg="Publishing PostComment message"
+time=2024-09-05T16:55:06.004+05:00 level=INFO msg="Message published successfully" queue=PostComment
+time=2024-09-05T16:56:22.022+05:00 level=INFO msg="Publishing PostComment message"
+time=2024-09-05T16:56:22.022+05:00 level=INFO msg="Message published successfully" queue=PostComment
+time=2024-09-05T16:56:56.722+05:00 level=INFO msg="Publishing PostTweet message"
+time=2024-09-05T16:56:56.722+05:00 level=INFO msg="Message published successfully" queue=PostTweet
+time=2024-09-05T16:57:42.703+05:00 level=INFO msg="Publishing PostComment message"
+time=2024-09-05T16:57:42.703+05:00 level=INFO msg="Message published successfully" queue=PostComment
+time=2024-09-05T17:17:47.343+05:00 level=INFO msg="Publishing PostTweet message"
+time=2024-09-05T17:17:47.344+05:00 level=INFO msg="Message published successfully" queue=PostTweet
+time=2024-09-05T17:20:06.566+05:00 level=INFO msg="Publishing PostTweet message"
+time=2024-09-05T17:20:06.566+05:00 level=INFO msg="Message published successfully" queue=PostTweet
+time=2024-09-05T17:21:10.433+05:00 level=INFO msg="Publishing AddLike message"
+time=2024-09-05T17:21:10.433+05:00 level=INFO msg="Message published successfully" queue=AddLike
+time=2024-09-05T17:21:50.011+05:00 level=ERROR msg="Error occurred while posting tweet" !BADKEY="rpc error: code = Unknown desc = pq: invalid input syntax for type uuid: \"{tweet_id}\""
+time=2024-09-05T17:22:17.216+05:00 level=ERROR msg="Error occurred while posting tweet" !BADKEY="rpc error: code = Unknown desc = pq: invalid input syntax for type uuid: \"{tweet_id}\""
+time=2024-09-05T17:25:44.051+05:00 level=ERROR msg="Error occurred while posting tweet" !BADKEY="rpc error: code = Unknown desc = pq: invalid input syntax for type uuid: \"{tweet_id}\""
+time=2024-09-05T17:29:12.022+05:00 level=INFO msg="Publishing PostTweet message"
+time=2024-09-05T17:29:12.022+05:00 level=INFO msg="Message published successfully" queue=PostTweet
+time=2024-09-05T17:30:27.844+05:00 level=INFO msg="Publishing PostTweet message"
+time=2024-09-05T17:30:27.844+05:00 level=INFO msg="Message published successfully" queue=PostTweet
+time=2024-09-05T17:30:54.166+05:00 level=INFO msg="Publishing AddLike message"
+time=2024-09-05T17:30:54.166+05:00 level=INFO msg="Message published successfully" queue=AddLike
+time=2024-09-05T17:31:07.470+05:00 level=INFO msg="Publishing AddLike message"
+time=2024-09-05T17:31:07.470+05:00 level=INFO msg="Message published successfully" queue=AddLike
+time=2024-09-05T17:32:27.975+05:00 level=ERROR msg="Error occurred while posting tweet" !BADKEY="rpc error: code = Unknown desc = pq: duplicate key value violates unique constraint \"likes_user_id_tweet_id_key\""
+time=2024-09-05T17:33:52.996+05:00 level=INFO msg="Publishing AddLike message"
+time=2024-09-05T17:33:52.996+05:00 level=INFO msg="Message published successfully" queue=AddLike
+time=2024-09-05T17:34:41.850+05:00 level=ERROR msg="Error occurred while posting tweet" !BADKEY="rpc error: code = Unknown desc = pq: invalid input syntax for type uuid: \"{tweet_id}\""
+time=2024-09-05T17:37:04.251+05:00 level=ERROR msg="Error occurred while posting tweet" !BADKEY="rpc error: code = Unknown desc = pq: invalid input syntax for type uuid: \"{tweet_id}\""
+time=2024-09-05T17:39:58.446+05:00 level=ERROR msg="Error occurred while posting tweet" !BADKEY="rpc error: code = Unknown desc = pq: invalid input syntax for type uuid: \"{tweet_id}\""
+time=2024-09-05T17:39:59.183+05:00 level=ERROR msg="Error occurred while posting tweet" !BADKEY="rpc error: code = Unknown desc = pq: invalid input syntax for type uuid: \"{tweet_id}\""
+time=2024-09-05T17:39:59.388+05:00 level=ERROR msg="Error occurred while posting tweet" !BADKEY="rpc error: code = Unknown desc = pq: invalid input syntax for type uuid: \"{tweet_id}\""
+time=2024-09-05T17:39:59.522+05:00 level=ERROR msg="Error occurred while posting tweet" !BADKEY="rpc error: code = Unknown desc = pq: invalid input syntax for type uuid: \"{tweet_id}\""
+time=2024-09-05T17:39:59.651+05:00 level=ERROR msg="Error occurred while posting tweet" !BADKEY="rpc error: code = Unknown desc = pq: invalid input syntax for type uuid: \"{tweet_id}\""
+time=2024-09-05T17:39:59.768+05:00 level=ERROR msg="Error occurred while posting tweet" !BADKEY="rpc error: code = Unknown desc = pq: invalid input syntax for type uuid: \"{tweet_id}\""
+time=2024-09-05T17:39:59.878+05:00 level=ERROR msg="Error occurred while posting tweet" !BADKEY="rpc error: code = Unknown desc = pq: invalid input syntax for type uuid: \"{tweet_id}\""
+time=2024-09-05T17:39:59.979+05:00 level=ERROR msg="Error occurred while posting tweet" !BADKEY="rpc error: code = Unknown desc = pq: invalid input syntax for type uuid: \"{tweet_id}\""
+time=2024-09-05T17:40:27.292+05:00 level=ERROR msg="Error occurred while posting tweet" !BADKEY="rpc error: code = Unknown desc = pq: invalid input syntax for type uuid: \"{tweet_id}\""
+time=2024-09-05T17:42:00.287+05:00 level=ERROR msg="Error occurred while posting tweet" !BADKEY="rpc error: code = Unknown desc = pq: invalid input syntax for type uuid: \"{tweet_id}\""
+time=2024-09-05T18:01:31.321+05:00 level=ERROR msg="Error occurred while fetching users" !BADKEY="failed to exit idle mode: dns resolver: missing address"
+time=2024-09-05T18:02:02.006+05:00 level=ERROR msg="Error occurred while fetching users" !BADKEY="failed to exit idle mode: dns resolver: missing address"
+time=2024-09-05T20:11:47.496+05:00 level=INFO msg="Publishing PostTweet message"
+time=2024-09-05T20:11:47.497+05:00 level=INFO msg="Message published successfully" queue=PostTweet
+time=2024-09-05T20:18:31.788+05:00 level=ERROR msg="Error occurred while changing user" !BADKEY="failed to exit idle mode: dns resolver: missing address"
+time=2024-09-05T20:20:30.339+05:00 level=ERROR msg="Error occurred while changing user" !BADKEY="failed to exit idle mode: dns resolver: missing address"
+time=2024-09-05T20:20:33.737+05:00 level=ERROR msg="Error occurred while changing user" !BADKEY="failed to exit idle mode: dns resolver: missing address"
+time=2024-09-05T20:20:59.919+05:00 level=ERROR msg="Error occurred while changing user" !BADKEY="failed to exit idle mode: dns resolver: missing address"
+time=2024-09-05T20:30:28.050+05:00 level=ERROR msg="Error occurred while changing user" !BADKEY="rpc error: code = Unknown desc = password is incorrect"
+time=2024-09-05T20:30:59.117+05:00 level=ERROR msg="Error occurred while changing user" !BADKEY="rpc error: code = Unknown desc = password is incorrect"
+time=2024-09-05T20:31:24.168+05:00 level=ERROR msg="Error occurred while changing user" !BADKEY="rpc error: code = Unknown desc = password is incorrect"
+time=2024-09-05T20:49:55.150+05:00 level=ERROR msg="Error occurred while deleting user" !BADKEY="rpc error: code = Unknown desc = failed to mark user as deleted: pq: invalid input syntax for type uuid: \"{user_id}\""
+time=2024-09-05T20:50:41.808+05:00 level=ERROR msg="Error occurred while deleting user" !BADKEY="rpc error: code = Unknown desc = failed to mark user as deleted: pq: invalid input syntax for type uuid: \"{user_id}\""
+time=2024-09-05T21:26:17.656+05:00 level=ERROR msg="Error occurred while getting user" !BADKEY="rpc error: code = Unknown desc = pq: invalid input syntax for type uuid: \"{user_id}\""
+time=2024-09-05T21:29:25.034+05:00 level=ERROR msg="Error occurred while getting user" !BADKEY="rpc error: code = Unknown desc = sql: no rows in result set"
+time=2024-09-05T21:32:53.279+05:00 level=ERROR msg="Error occurred while following" !BADKEY="rpc error: code = Unknown desc = pq: invalid input syntax for type uuid: \"string\""
+time=2024-09-06T01:11:16.536+05:00 level=ERROR msg="Error occurred while listing followers" !BADKEY="rpc error: code = Unavailable desc = connection error: desc = \"transport: Error while dialing: dial tcp 127.0.0.1:50050: connect: connection refused\""
+time=2024-09-06T01:11:24.720+05:00 level=ERROR msg="Error occurred while listing followers" !BADKEY="rpc error: code = Unavailable desc = connection error: desc = \"transport: Error while dialing: dial tcp 127.0.0.1:50050: connect: connection refused\""
+time=2024-09-06T01:11:25.859+05:00 level=ERROR msg="Error occurred while listing followers" !BADKEY="rpc error: code = Unavailable desc = connection error: desc = \"transport: Error while dialing: dial tcp 127.0.0.1:50050: connect: connection refused\""
+time=2024-09-06T01:11:26.445+05:00 level=ERROR msg="Error occurred while listing followers" !BADKEY="rpc error: code = Unavailable desc = connection error: desc = \"transport: Error while dialing: dial tcp 127.0.0.1:50050: connect: connection refused\""
+time=2024-09-06T01:11:30.402+05:00 level=ERROR msg="Error occurred while listing followers" !BADKEY="rpc error: code = Unknown desc = pq: invalid input syntax for type uuid: \"stringes\""
+time=2024-09-06T01:11:47.803+05:00 level=ERROR msg="Error occurred while listing following" !BADKEY="rpc error: code = Unknown desc = pq: invalid input syntax for type uuid: \"stringes\""
+time=2024-09-06T03:10:19.751+05:00 level=INFO msg="Publishing PostTweet message"
+time=2024-09-06T03:10:19.751+05:00 level=INFO msg="Message published successfully" queue=PostTweet
+time=2024-09-06T17:07:41.533+05:00 level=ERROR msg="Error occurred while posting tweet" !BADKEY="rpc error: code = Unknown desc = pq: invalid input syntax for type uuid: \"\""
+time=2024-09-06T17:12:07.773+05:00 level=INFO msg="Publishing AddLike message"
+time=2024-09-06T17:12:07.773+05:00 level=INFO msg="Message published successfully" queue=AddLike
+time=2024-09-07T21:09:02.093+05:00 level=INFO msg="Publishing PostTweet message"
+time=2024-09-07T21:09:02.093+05:00 level=INFO msg="Message published successfully" queue=PostTweet
+time=2024-09-07T21:09:28.637+05:00 level=ERROR msg="Error occurred while retweeting tweet" !BADKEY="rpc error: code = Unimplemented desc = method ReTweet not implemented"
+time=2024-09-07T21:10:19.692+05:00 level=ERROR msg="Error occurred while retweeting tweet" !BADKEY="rpc error: code = Unimplemented desc = method ReTweet not implemented"
+time=2024-09-07T21:15:12.016+05:00 level=ERROR msg="Error occurred while retweeting tweet" !BADKEY="rpc error: code = Unimplemented desc = method ReTweet not implemented"
+time=2024-09-07T21:33:37.009+05:00 level=INFO msg="Publishing PostTweet message"
+time=2024-09-07T21:33:37.043+05:00 level=INFO msg="Message published successfully" queue=PostTweet
+time=2024-09-07T21:40:15.600+05:00 level=ERROR msg="Error occurred while retweeting tweet" !BADKEY="rpc error: code = Unknown desc = pq: invalid input syntax for type uuid: \"string\""

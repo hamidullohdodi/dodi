@@ -1,0 +1,139 @@
+syntax = "proto3";
+
+package user;
+
+option go_package = "genproto/user";
+
+// AuthService for user authentication and profile management
+service UserService {
+  rpc Create(CreateRequest) returns (UserResponse);
+  rpc GetProfile(Id) returns (GetProfileResponse);
+  rpc UpdateProfile(UpdateProfileRequest) returns (UserResponse);
+  rpc ChangePassword(ChangePasswordRequest) returns (ChangePasswordResponse);
+  rpc ChangeProfileImage(URL) returns (Void);
+  rpc FetchUsers(Filter) returns (UserResponses);
+  rpc PostAdd(Id) returns (Void);
+  rpc ListOfFollowing(Id) returns (Followings);
+  rpc ListOfFollowers(Id) returns (Followers);
+  rpc PostDelete(Id) returns (Void);
+  rpc DeleteUser(Id) returns (Void);
+}
+
+// Common messages
+message Void {}
+
+message Id {
+  string user_id = 1;
+}
+
+// Request and Response messages for AuthService
+message CreateRequest {
+  string email = 1;
+  string password = 2;
+  string phone = 3;
+  string first_name = 4;
+  string last_name = 5;
+  string username = 6;
+  string nationality =7;
+  string bio = 8;
+}
+
+message UserResponse {
+  string id = 1;
+  string email = 2;
+  string phone = 3;
+  string first_name = 4;
+  string last_name = 5;
+  string username = 6;
+  string nationality =7;
+  string bio = 8;
+  string created_at = 9;
+}
+
+message LoginRequest {
+  string email = 1;
+  string password = 2;
+}
+
+message LoginResponse {
+  string access_token = 1;
+  string refresh_token = 2;
+  string user_id = 3;
+}
+
+// Profile-related messages
+message GetProfileResponse {
+  string user_id = 1;
+  string first_name = 2;
+  string last_name = 3;
+  string email = 4;
+  string phone_number = 5;
+  string username = 6;
+  string nationality = 7;
+  string bio = 8;
+  string profile_image = 9;
+  int32 followers_count = 10;
+  int32 following_count = 11;
+  int32 posts_count = 12;
+  string created_at = 13;
+  string updated_at = 14;
+}
+
+message UpdateProfileRequest {
+  string user_id = 1;
+  string first_name = 2;
+  string last_name = 3;
+  string phone_number = 4;
+  string username = 5;
+  string nationality = 6;
+  string bio = 7;
+  string profile_image = 8;
+  string phone = 9;
+}
+
+// Admin-specific messages
+message Filter {
+  string role = 1;
+  int32 page = 2;
+  int32 limit = 3;
+  string first_name = 4;
+}
+
+message UserResponses {
+  repeated UserResponse users = 1;
+}
+
+
+message ChangePasswordRequest {
+  string userId = 1;
+  string current_password = 2;
+  string new_password = 3;
+}
+
+message ChangePasswordResponse {
+  string message = 1;
+}
+
+message URL {
+  string url = 1;
+  string user_id =2;
+}
+
+message Ids {
+  string follower_id = 1;
+  string following_id = 2;
+}
+
+message Followings {
+  repeated string Ids =1;
+}
+
+message Follower {
+  string user_id = 1;
+  string email = 2;
+  string username = 3;
+}
+
+message Followers {
+  repeated Follower followers = 1;
+}
